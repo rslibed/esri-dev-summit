@@ -1,0 +1,133 @@
+{
+  "analyticsOptIn": "Anmäl dig",
+  "clear": "Avmarkera",
+  "close": "Stäng",
+  "collapse": "Dölj",
+  "copyClipboard": "Kopiera till urklipp",
+  "enter": "Ange",
+  "error": "Fel",
+  "expand": "Expandera",
+  "export": {
+    "results": "Resultat",
+    "resultsAndMap": "Resultat och karta",
+    "tip": "Skriv ut eller spara som PDF"
+  },
+  "generalShortcuts": {
+    "action": "Åtgärd",
+    "label": "Kortkommandon",
+    "menu": "genvägsmeny",
+    "shortcut": "Genväg",
+    "title": "Välj kartan"
+  },
+  "validateAppAccessError": {
+    "message": "Åtkomst till den här applikationen har blockerats. Kontakta administratören.",
+    "title": "Åtkomst har blockerats"
+  },
+  "licenseError": {
+    "message": "Ditt konto har ingen licens för att använda konfigurerbara appar som inte är tillgängliga för allmänheten. Be din organisations administratör att tilldela dig en användartyp som omfattar Essential Apps eller en tilläggslicens för Essential Apps.",
+    "title": "Inte licensierad"
+  },
+  "mapScroll": {
+    "disableMessage": "Inaktivera kartrullning",
+    "enableMessage": "Aktivera kartbläddring"
+  },
+  "originError": {
+    "close": "Stäng",
+    "linkMessage": "Fortsätt till",
+    "message": "Den applikation du försöker öppna hämtas inte från den URL du angav",
+    "options": "Avancerade alternativ"
+  },
+  "screenshot": {
+    "backButton": "Återgå till kartan",
+    "deactivateScreenshot": "Inaktivera skärmbildsläge",
+    "downloadImage": "Hämta bild",
+    "enterTitle": "Ange titel",
+    "horizontal": "Horisontell",
+    "legend": "Teckenförklaring",
+    "popup": "Popupfönster",
+    "screenshotLayout": "Layout för skärmbild",
+    "screenshotSubtitle": "Välj ytterligare element som ska ingå i kartan.",
+    "screenshotTitle": "Ta en bild",
+    "selectAFeature": "Välj ett geoobjekt på kartan",
+    "setScreenshotArea": "Ställ in kartområdet",
+    "takeAScreenshot": "Ta en skärmbild",
+    "vertical": "Vertikal",
+    "widgetLabel": "Skärmbild"
+  },
+  "shortcutsMapView": {
+    "A": "Rotera moturs",
+    "arrowKeys": "Piltangenter",
+    "D": "Rotera medurs",
+    "minus": "Zooma ut i mitten",
+    "N": "Justera så att den pekar norrut",
+    "nudge": "Knuffa åt vänster, höger, uppåt eller nedåt",
+    "plus": "Zooma in i mitten"
+  },
+  "shortcutsSceneView": {
+    "A": "Rotera kameran moturs",
+    "D": "Rotera kameran medurs",
+    "globalCommands": {
+      "J": "Flytta ned närmare kartan",
+      "U": "Flytta upp högre än kartan"
+    },
+    "N": "Justera kartan så att den pekar norrut",
+    "P": "Flytta kameran för en vinkelrät vy över data som visas i kartan",
+    "S": "Luta kameran nedåt",
+    "W": "Luta kameran uppåt"
+  },
+  "tools": {
+    "coverPage": "Omslagssida",
+    "bookmarks": "Öppna bokmärken",
+    "close": {
+      "bookmarks": "Stäng bokmärken",
+      "cluster": "Bläddra genom geoobjekt",
+      "elevationProfile": "Stäng profil för höjdkurva",
+      "filter": "Stäng filter",
+      "keyboard": "Välj kortkommandon",
+      "languageSwitcher": "Stäng språkbytaren",
+      "layerList": "Stäng lagerlista",
+      "legend": "Stäng teckenförklaring",
+      "measureTools": "Stäng mätverktyg",
+      "overviewMap": "Stäng översiktskarta",
+      "print": "Stäng utskrift",
+      "screenshot": "Stäng skärmbild",
+      "search": "Stäng sökning",
+      "share": "Stäng delningspanelen",
+      "splash": "Stäng introduktionsfönstret",
+      "table": "Stäng tabell",
+      "time": "Stäng tid"
+    },
+    "elevationProfile": "Öppna profil för höjdkurva",
+    "export": "Exportera till PDF",
+    "exportCSV": "Exportera till CSV",
+    "filter": "Öppna filter",
+    "hideInfo": "Visa inte detta igen",
+    "hoverPopupTip": "Klicka på kartan för att fästa",
+    "keyboard": "Öppna kortkommandon",
+    "languageSwitcher": "Öppna språkbytaren",
+    "layerList": "Öppna lagerlista",
+    "legend": "Öppna teckenförklaring",
+    "magnifier": {
+      "factor": "Faktor",
+      "heading": "Förstoringsglas",
+      "label": "Öppna förstoringsglas",
+      "size": "Storlek",
+      "summary": "Aktivera förstoringsglas och ange alternativ"
+    },
+    "measure": {
+      "area": "Mät area",
+      "label": "Öppna mätning",
+      "line": "Mät linje",
+      "point": "Koordinater"
+    },
+    "measureTools": "Öppna mätverktygen",
+    "overviewMap": "Öppna översiktskarta",
+    "print": "Öppna utskrift",
+    "screenshot": "Öppna skärmbild",
+    "search": "Öppna sökning",
+    "share": "Öppna delningspanelen",
+    "splash": "Öppna introduktionsfönstret",
+    "table": "Öppna tabell",
+    "time": "Öppna tid"
+  }
+}

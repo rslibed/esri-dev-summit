@@ -1,0 +1,133 @@
+{
+  "analyticsOptIn": "Luba",
+  "clear": "Tühjenda",
+  "close": "Sule",
+  "collapse": "Ahenda",
+  "copyClipboard": "Kopeeri lõikelauale",
+  "enter": "Sisene",
+  "error": "Viga",
+  "expand": "Laienda",
+  "export": {
+    "results": "Tulemused",
+    "resultsAndMap": "Tulemused ja kaart",
+    "tip": "Prindi või salvesta PDF-ina"
+  },
+  "generalShortcuts": {
+    "action": "Toiming",
+    "label": "Kiirklahvid",
+    "menu": "otseteede menüü",
+    "shortcut": "Otsetee",
+    "title": "Valige kaart"
+  },
+  "validateAppAccessError": {
+    "message": "Juurdepääs sellele rakendusele on blokeeritud. Võtke ühendust oma administraatoriga.",
+    "title": "Juurdepääs blokeeritud"
+  },
+  "licenseError": {
+    "message": "Teie kontol puudub litsents konfigureeritavate rakenduste kasutamiseks, mis ei ole avalikud. Paluge oma organisatsiooni administraatoril määrata teile kasutajatüüp, mis sisaldab olulisi rakendusi või oluliste rakenduse lisalitsentsi.",
+    "title": "Litsents puudub"
+  },
+  "mapScroll": {
+    "disableMessage": "Keela kaardi kerimine",
+    "enableMessage": "Luba kaardi kerimine"
+  },
+  "originError": {
+    "close": "Sule",
+    "linkMessage": "Liigu kohta",
+    "message": "Rakendus, mida proovite avada, pole pärit teie esitatud URL-ilt",
+    "options": "Täiendavad võimalused"
+  },
+  "screenshot": {
+    "backButton": "Naase kaardile",
+    "deactivateScreenshot": "Lülita kuvatõmmise režiim välja",
+    "downloadImage": "Laadi pilt alla",
+    "enterTitle": "Sisesta pealkiri",
+    "horizontal": "Horisontaalne",
+    "legend": "Legendiga kaart",
+    "popup": "Hüpikaken",
+    "screenshotLayout": "Kuvatõmmise paigutus",
+    "screenshotSubtitle": "Valige kaardile kaasatavad lisaelemendid.",
+    "screenshotTitle": "Jäädvusta pilt",
+    "selectAFeature": "Vali objekt kaardil",
+    "setScreenshotArea": "Määra kaardiala",
+    "takeAScreenshot": "Tee kuvatõmmis",
+    "vertical": "Vertikaalne",
+    "widgetLabel": "Kuvatõmmis"
+  },
+  "shortcutsMapView": {
+    "A": "Pööra vastupäeva",
+    "arrowKeys": "Nooleklahvid",
+    "D": "Pööra päripäeva",
+    "minus": "Vähenda keskosa",
+    "N": "Kohanda, et see osutaks põhja",
+    "nudge": "Nihuta vasakule, paremale, üles või alla",
+    "plus": "Suurenda keskosa"
+  },
+  "shortcutsSceneView": {
+    "A": "Pööra kaamerat vastupäeva",
+    "D": "Pööra kaamerat päripäeva",
+    "globalCommands": {
+      "J": "Liigu allapoole kaardile lähemnale",
+      "U": "Liigu ülespoole kaardilt eemale"
+    },
+    "N": "Kohanda kaarti, et see osutaks põhja",
+    "P": "Liigutage kaamerat, et vaadata kaardil kuvatavate andmetega risti",
+    "S": "Kalluta kaamerat allapoole",
+    "W": "Kalluta kaamerat ülespoole"
+  },
+  "tools": {
+    "coverPage": "Esileht",
+    "bookmarks": "Ava järjehoidjad",
+    "close": {
+      "bookmarks": "Sulge järjehoidjad",
+      "cluster": "Sirvi objekte",
+      "elevationProfile": "Sulge kõrgusprofiil",
+      "filter": "Sule filter",
+      "keyboard": "Sule kiirklahvid",
+      "languageSwitcher": "Sule keelevahetaja",
+      "layerList": "Sulge kihiloend",
+      "legend": "Sulge legend",
+      "measureTools": "Sule mõõtetööriistad",
+      "overviewMap": "Sulge ülevaatekaart",
+      "print": "Sulge printimine",
+      "screenshot": "Sulge ekraanipilt",
+      "search": "Sulge otsing",
+      "share": "Sulge jagamispaneel",
+      "splash": "Sule tutvustusaken",
+      "table": "Sulge tabel",
+      "time": "Sulge aeg"
+    },
+    "elevationProfile": "Ava kõrgusprofiil",
+    "export": "Ekspordi PDF-failiks",
+    "exportCSV": "Ekspordi CSV-vormingusse",
+    "filter": "Ava filter",
+    "hideInfo": "Ära seda uuesti kuva",
+    "hoverPopupTip": "Klõpsa kinnitamiseks kaardil",
+    "keyboard": "Ava kiirklahvid",
+    "languageSwitcher": "Ava keelevahetaja",
+    "layerList": "Ava kihiloend",
+    "legend": "Ava legend",
+    "magnifier": {
+      "factor": "Tegur",
+      "heading": "Luup",
+      "label": "Ava luup",
+      "size": "Suurus",
+      "summary": "Luba luup ja määra valikud"
+    },
+    "measure": {
+      "area": "Mõõda pindala",
+      "label": "Ava mõõtmine",
+      "line": "Mõõda joont",
+      "point": "Koordinaadid"
+    },
+    "measureTools": "Ava mõõtetööriistad",
+    "overviewMap": "Ava ülevaatekaart",
+    "print": "Ava printimine",
+    "screenshot": "Ava ekraanipilt",
+    "search": "Ava otsing",
+    "share": "Ava jagamispaneel",
+    "splash": "Ava tutvustusaken",
+    "table": "Ava tabel",
+    "time": "Ava aeg"
+  }
+}

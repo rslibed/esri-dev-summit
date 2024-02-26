@@ -1,0 +1,133 @@
+{
+  "analyticsOptIn": "選擇參加",
+  "clear": "清除",
+  "close": "關閉",
+  "collapse": "摺疊",
+  "copyClipboard": "複製到剪貼簿",
+  "enter": "Enter",
+  "error": "錯誤",
+  "expand": "展開",
+  "export": {
+    "results": "結果",
+    "resultsAndMap": "結果和地圖",
+    "tip": "列印或儲存為 PDF"
+  },
+  "generalShortcuts": {
+    "action": "操作",
+    "label": "鍵盤快速鍵",
+    "menu": "捷徑功能表",
+    "shortcut": "捷徑",
+    "title": "選取取地圖"
+  },
+  "validateAppAccessError": {
+    "message": "已封鎖此應用程式的存取。 請聯絡您的管理員。",
+    "title": "已封鎖存取"
+  },
+  "licenseError": {
+    "message": "您的帳號未經授權，無法使用非公開的可配置應用程式。 請聯繫您的組織管理員，請其將包含基礎應用程式或附加元件基礎應用程式授權的使用者類型指派給您。",
+    "title": "未經許可"
+  },
+  "mapScroll": {
+    "disableMessage": "停用地圖捲動",
+    "enableMessage": "啟用地圖捲動"
+  },
+  "originError": {
+    "close": "關閉",
+    "linkMessage": "繼續至",
+    "message": "您正在嘗試存取的應用程式並非源自您提供的 URL",
+    "options": "進階選項"
+  },
+  "screenshot": {
+    "backButton": "返回地圖",
+    "deactivateScreenshot": "停用螢幕截圖模式",
+    "downloadImage": "下載圖像",
+    "enterTitle": "輸入標題",
+    "horizontal": "水平對齊",
+    "legend": "圖例",
+    "popup": "快顯",
+    "screenshotLayout": "螢幕截圖版面配置",
+    "screenshotSubtitle": "選擇其他元素以包含地圖。",
+    "screenshotTitle": "擷取圖片",
+    "selectAFeature": "在地圖上選擇圖徵",
+    "setScreenshotArea": "設定地圖區域",
+    "takeAScreenshot": "擷取螢幕截圖",
+    "vertical": "垂直",
+    "widgetLabel": "螢幕截圖"
+  },
+  "shortcutsMapView": {
+    "A": "逆時針旋轉",
+    "arrowKeys": "方向鍵",
+    "D": "順時針旋轉",
+    "minus": "縮小中心",
+    "N": "調整為指向北方",
+    "nudge": "向左、向右、向上或向下微移",
+    "plus": "放大中心"
+  },
+  "shortcutsSceneView": {
+    "A": "逆時針旋轉相機",
+    "D": "順時針旋轉相機",
+    "globalCommands": {
+      "J": "向下移動以更貼近地圖",
+      "U": "向上移動以更遠離地圖"
+    },
+    "N": "調整地圖指向北方",
+    "P": "移動相機，以垂直方向觀看地圖中顯示的資料",
+    "S": "將相機向下傾斜",
+    "W": "將相機向上傾斜"
+  },
+  "tools": {
+    "coverPage": "封面頁",
+    "bookmarks": "開啟書籤",
+    "close": {
+      "bookmarks": "關閉書籤",
+      "cluster": "瀏覽圖徵",
+      "elevationProfile": "關閉高程剖面",
+      "filter": "關閉篩選器",
+      "keyboard": "關閉鍵盤快速鍵",
+      "languageSwitcher": "關閉語言切換器",
+      "layerList": "關閉圖層清單",
+      "legend": "關閉圖例",
+      "measureTools": "關閉測量工具",
+      "overviewMap": "關閉概觀地圖",
+      "print": "關閉列印",
+      "screenshot": "關閉螢幕截圖",
+      "search": "關閉搜尋",
+      "share": "關閉分享面板",
+      "splash": "關閉簡介視窗",
+      "table": "關閉表格",
+      "time": "關閉時間"
+    },
+    "elevationProfile": "開啟高程剖面",
+    "export": "匯出至 PDF",
+    "exportCSV": "匯出至 CSV",
+    "filter": "開啟篩選器",
+    "hideInfo": "不要再顯示",
+    "hoverPopupTip": "按一下要固定的地圖",
+    "keyboard": "開啟鍵盤快速鍵",
+    "languageSwitcher": "開啟語言切換器",
+    "layerList": "開啟圖層清單",
+    "legend": "開啟圖例",
+    "magnifier": {
+      "factor": "因子",
+      "heading": "放大鏡",
+      "label": "開啟放大鏡",
+      "size": "大小",
+      "summary": "啟用放大鏡和設定選項"
+    },
+    "measure": {
+      "area": "測量面積",
+      "label": "開啟測量",
+      "line": "測量線條",
+      "point": "座標"
+    },
+    "measureTools": "開啟測量工具",
+    "overviewMap": "開啟概觀地圖",
+    "print": "開啟列印",
+    "screenshot": "開啟螢幕截圖",
+    "search": "開啟搜尋",
+    "share": "開啟分享面板",
+    "splash": "開啟簡介視窗",
+    "table": "開啟表格",
+    "time": "開啟時間"
+  }
+}

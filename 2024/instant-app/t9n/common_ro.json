@@ -1,0 +1,133 @@
+{
+  "analyticsOptIn": "Înscrieți-vă",
+  "clear": "Golire",
+  "close": "Închidere",
+  "collapse": "Restrângere",
+  "copyClipboard": "Copiere în clipboard",
+  "enter": "Introducere",
+  "error": "Eroare",
+  "expand": "Extindere",
+  "export": {
+    "results": "Rezultate",
+    "resultsAndMap": "Rezultate și hartă",
+    "tip": "Imprimați sau salvați ca PDF"
+  },
+  "generalShortcuts": {
+    "action": "Acțiune",
+    "label": "Scurtături pe tastatură",
+    "menu": "meniu de scurtături",
+    "shortcut": "Scurtătură",
+    "title": "Selectați harta"
+  },
+  "validateAppAccessError": {
+    "message": "Accesul la această aplicație a fost blocat. Contactaţi administratorul.",
+    "title": "Acces blocat"
+  },
+  "licenseError": {
+    "message": "Contul dvs. nu este licențiat să utilizeze aplicații configurabile care nu sunt publice. Solicitați-i administratorului organizației să vă aloce un tip de utilizator care include aplicații esențiale sau o licență pentru aplicații esențiale de completare.",
+    "title": "Nelicențiat"
+  },
+  "mapScroll": {
+    "disableMessage": "Dezactivare derulare hartă",
+    "enableMessage": "Activare derulare hartă"
+  },
+  "originError": {
+    "close": "Închidere",
+    "linkMessage": "Continuați la",
+    "message": "Aplicația pe care încercați să o accesați nu are originea în URL-ul pus la dispoziție de dvs.",
+    "options": "Opţiuni avansate"
+  },
+  "screenshot": {
+    "backButton": "Revenire la hartă",
+    "deactivateScreenshot": "Dezactivare mod captură de ecran",
+    "downloadImage": "Descărcare imagine",
+    "enterTitle": "Introducere titlu",
+    "horizontal": "Orizontal",
+    "legend": "Legendă",
+    "popup": "Pop-up",
+    "screenshotLayout": "Configurație captură de ecran",
+    "screenshotSubtitle": "Selectați elemente suplimentare pentru a le include cu harta.",
+    "screenshotTitle": "Capturare imagine",
+    "selectAFeature": "Selectare un obiect spațial de pe hartă",
+    "setScreenshotArea": "Setare suprafață hartă",
+    "takeAScreenshot": "Efectuare captură de ecran",
+    "vertical": "Vertical",
+    "widgetLabel": "Captură de ecran"
+  },
+  "shortcutsMapView": {
+    "A": "Rotire în sens invers acelor de ceasornic",
+    "arrowKeys": "Taste săgeți",
+    "D": "Rotire în sensul acelor de ceasornic",
+    "minus": "Îndepărtați de centru",
+    "N": "Reglați la punctul nord",
+    "nudge": "Împingeți la stânga, la dreapta, sus sau jos",
+    "plus": "Transfocați în centru"
+  },
+  "shortcutsSceneView": {
+    "A": "Rotiți camera în sens invers acelor de ceasornic",
+    "D": "Rotiți camera în sensu acelor de ceasornic",
+    "globalCommands": {
+      "J": "Mutați în jos mai aproape de hartă",
+      "U": "Mutați în sus mai departe de hartă"
+    },
+    "N": "Reglați harta la punctul nord",
+    "P": "Mutați camera pentru a privi perpendicular la datele afișate în hartă",
+    "S": "Înclinați camera în jos",
+    "W": "Înclinați camera în sus"
+  },
+  "tools": {
+    "coverPage": "Pagină copertă",
+    "bookmarks": "Deschidere semne de carte",
+    "close": {
+      "bookmarks": "Închidere semne de carte",
+      "cluster": "Căutare obiecte spațiale",
+      "elevationProfile": "Închidere profil elevație",
+      "filter": "Închidere filtru",
+      "keyboard": "Închidere comenzi rapide tastatură",
+      "languageSwitcher": "Închiderea comutatorului de limbă",
+      "layerList": "Închidere listă de straturi tematice",
+      "legend": "Închidere legendă",
+      "measureTools": "Închidere instrumente de măsură",
+      "overviewMap": "Închidere hartă prezentare generală",
+      "print": "Închidere imprimare",
+      "screenshot": "Închidere captură de ecran",
+      "search": "Închidere căutare",
+      "share": "Închidere panou de partajare",
+      "splash": "Închiderea ferestrei de introducere",
+      "table": "Închidere tabel",
+      "time": "Închidere oră"
+    },
+    "elevationProfile": "Deschidere profil elevație",
+    "export": "Export în PDF",
+    "exportCSV": "Export în CSV",
+    "filter": "Deschidere filtru",
+    "hideInfo": "Nu se afişează din nou",
+    "hoverPopupTip": "Faceți clic pe hartă pentru a fixa",
+    "keyboard": "Deschideți comenzile rapide de tastatură",
+    "languageSwitcher": "Deschiderea comutatorului de limbă",
+    "layerList": "Deschidere listă de straturi tematice",
+    "legend": "Deschidere legendă",
+    "magnifier": {
+      "factor": "Factor",
+      "heading": "Lupă",
+      "label": "Deschideți lupa",
+      "size": "Dimensiune",
+      "summary": "Activați lupa și setați opțiunile"
+    },
+    "measure": {
+      "area": "Măsurare suprafaţă",
+      "label": "Deschidere măsurare",
+      "line": "Măsurare linie",
+      "point": "Coordonate"
+    },
+    "measureTools": "Deschidere instrumente de măsurare",
+    "overviewMap": "Deschidere hartă prezentare generală",
+    "print": "Deschidere imprimare",
+    "screenshot": "Deschidere captură de ecran",
+    "search": "Deschidere căutare",
+    "share": "Deschidere panou de partajare",
+    "splash": "Deschiderea ferestrei de introducere",
+    "table": "Deschidere tabel",
+    "time": "Deschidere oră"
+  }
+}

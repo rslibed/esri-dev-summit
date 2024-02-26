@@ -1,0 +1,133 @@
+{
+  "analyticsOptIn": "Prihlásiť sa",
+  "clear": "Vyčistiť",
+  "close": "Zatvoriť",
+  "collapse": "Zbaliť",
+  "copyClipboard": "Kopírovať do schránky",
+  "enter": "Zadať",
+  "error": "Chyba",
+  "expand": "Rozbaliť",
+  "export": {
+    "results": "Výsledky",
+    "resultsAndMap": "Výsledok a mapa",
+    "tip": "Vytlačiť alebo uložiť ako PDF"
+  },
+  "generalShortcuts": {
+    "action": "Akcia",
+    "label": "Klávesové skratky",
+    "menu": "menu skratiek",
+    "shortcut": "Skratka",
+    "title": "Vybrať mapu"
+  },
+  "validateAppAccessError": {
+    "message": "Prístup k tejto aplikácií bol zablokovaný. Kontaktujte svojho správcu.",
+    "title": "Prístup zablokovaný"
+  },
+  "licenseError": {
+    "message": "Váš účet nezahŕňa licenciu na použitie Konfigurovateľných aplikácií, ktoré nie sú verejné. Požiadajte správcu vašej organizácie, aby vám priradil typ používateľa, ktorý zahŕňa Esenciálne aplikácie alebo doplnkovú licenciu Esenciálnych aplikácií",
+    "title": "Nelicencované"
+  },
+  "mapScroll": {
+    "disableMessage": "Zakázať posúvanie mapy",
+    "enableMessage": "Povoliť posun mapy"
+  },
+  "originError": {
+    "close": "Zatvoriť",
+    "linkMessage": "Pokračovať na",
+    "message": "Aplikácia, ku ktorej sa snažíte pristúpiť, nepochádza z URL, ktorú ste poskytli",
+    "options": "Rozšírené možnosti"
+  },
+  "screenshot": {
+    "backButton": "Návrat do mapy",
+    "deactivateScreenshot": "Deaktivovať režim snímky obrazovky",
+    "downloadImage": "Stiahnuť obrázok",
+    "enterTitle": "Zadajte názov",
+    "horizontal": "Horizontálne",
+    "legend": "Legenda",
+    "popup": "Kontextové okno",
+    "screenshotLayout": "Rozvrhnutie snímky obrazovky",
+    "screenshotSubtitle": "Vyberte ďalšie elementy, ktoré chcete zahrnúť do mapy.",
+    "screenshotTitle": "Zachytiť obrázok",
+    "selectAFeature": "Vybrať prvok v mape",
+    "setScreenshotArea": "Nastaviť oblasť mapy",
+    "takeAScreenshot": "Vytvoriť snímku obrazovky",
+    "vertical": "Vertikálne",
+    "widgetLabel": "Snímka obrazovky"
+  },
+  "shortcutsMapView": {
+    "A": "Otočiť proti smeru hodinových ručičiek",
+    "arrowKeys": "Klávesy so šípkami",
+    "D": "Otočíť v smere hodinových ručičiek",
+    "minus": "Oddialiť na stred",
+    "N": "Nastaviť na sever",
+    "nudge": "Posunúť doľava, doprava, hore alebo dole",
+    "plus": "Priblížiť na stred"
+  },
+  "shortcutsSceneView": {
+    "A": "Rotovať kameru proti smeru hodinových ručičiek",
+    "D": "Rotovať kameru v smere hodinových ručičiek",
+    "globalCommands": {
+      "J": "Posunúť nadol bližšie k mape",
+      "U": "Posunúť nahor vyššie od mapy"
+    },
+    "N": "Nastaviť mapu na sever",
+    "P": "Posuňte kameru tak, aby smerovala kolmo na dáta zobrazené v mape",
+    "S": "Nakloniť kameru nadol",
+    "W": "Nakloniť kameru nahor"
+  },
+  "tools": {
+    "coverPage": "Titulná strana",
+    "bookmarks": "Otvoriť záložky",
+    "close": {
+      "bookmarks": "Zatvoriť záložky",
+      "cluster": "Prehľadať prvky",
+      "elevationProfile": "Zatvoriť výškový profil",
+      "filter": "Zatvoriť filter",
+      "keyboard": "Zatvoriť klávesové skratky",
+      "languageSwitcher": "Zatvoriť prepínač jazykov",
+      "layerList": "Zatvoriť zoznam vrstiev",
+      "legend": "Zatvoriť legendu",
+      "measureTools": "Zatvoriť nástroje merania",
+      "overviewMap": "Zatvoriť prehľadovú mapu",
+      "print": "Zatvoriť tlač",
+      "screenshot": "Zatvoriť snímku obrazovky",
+      "search": "Zatvoriť vyhľadávanie",
+      "share": "Zavrieť panel zdieľania",
+      "splash": "Zatvoriť úvodné okno",
+      "table": "Zatvoriť tabuľku",
+      "time": "Zatvoriť čas"
+    },
+    "elevationProfile": "Otvoriť výškový profil",
+    "export": "Exportovať do PDF",
+    "exportCSV": "Exportovať do CSV",
+    "filter": "Otvoriť filter",
+    "hideInfo": "Nezobrazovať znova",
+    "hoverPopupTip": "Pripnúť kliknutím do mapy",
+    "keyboard": "Otvoriť klávesové skratky",
+    "languageSwitcher": "Otvoriť prepínač jazykov",
+    "layerList": "Otvoriť zoznam vrstiev",
+    "legend": "Otvoriť legendu",
+    "magnifier": {
+      "factor": "Faktor",
+      "heading": "Lupa",
+      "label": "Otvoriť lupu",
+      "size": "Veľkosť",
+      "summary": "Povoliť lupu a nastaviť možnosti"
+    },
+    "measure": {
+      "area": "Zmerať plochu",
+      "label": "Otvoriť meranie",
+      "line": "Zmerať líniu",
+      "point": "Súradnice"
+    },
+    "measureTools": "Otvoriť nástroje merania",
+    "overviewMap": "Otvoriť prehľadovú mapu",
+    "print": "Otvoriť tlač",
+    "screenshot": "Otvoriť snímku obrazovky",
+    "search": "Otvoriť vyhľadávanie",
+    "share": "Otvoriť panel zdieľania",
+    "splash": "Otvoriť úvodné okno",
+    "table": "Otvoriť tabuľku",
+    "time": "Otvoriť čas"
+  }
+}

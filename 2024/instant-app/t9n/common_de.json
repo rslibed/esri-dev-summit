@@ -1,0 +1,133 @@
+{
+  "analyticsOptIn": "Zustimmen",
+  "clear": "Entfernen",
+  "close": "Schließen",
+  "collapse": "Ausblenden",
+  "copyClipboard": "In Zwischenablage kopieren",
+  "enter": "Eingabetaste",
+  "error": "Fehler",
+  "expand": "Einblenden",
+  "export": {
+    "results": "Ergebnisse",
+    "resultsAndMap": "Ergebnisse und Karte",
+    "tip": "Drucken oder als PDF speichern"
+  },
+  "generalShortcuts": {
+    "action": "Aktion",
+    "label": "Tastenkombinationen",
+    "menu": "Tastenkombinationsmenü",
+    "shortcut": "Tastenkombination",
+    "title": "Karte auswählen"
+  },
+  "validateAppAccessError": {
+    "message": "Der Zugriff auf diese Anwendung wurde gesperrt. Wenden Sie sich an den Administrator.",
+    "title": "Zugriff gesperrt"
+  },
+  "licenseError": {
+    "message": "Ihr Konto ist nicht für die Verwendung von nicht öffentlichen konfigurierbaren Apps lizenziert. Bitten Sie den Administrator der Organisation, Ihnen einen Benutzertyp mit Essential Apps oder eine Add-On-Lizenz für Essential Apps zuzuweisen.",
+    "title": "Nicht lizenziert"
+  },
+  "mapScroll": {
+    "disableMessage": "Bildlauf in der Karte deaktivieren",
+    "enableMessage": "Bildlauf in der Karte aktivieren"
+  },
+  "originError": {
+    "close": "Schließen",
+    "linkMessage": "Weiter zu",
+    "message": "Die Anwendung, auf die Sie zugreifen möchten, stammt nicht von der von Ihnen angegebenen URL.",
+    "options": "Erweiterte Optionen"
+  },
+  "screenshot": {
+    "backButton": "Zurück zur Karte",
+    "deactivateScreenshot": "Screenshot-Modus deaktivieren",
+    "downloadImage": "Bild herunterladen",
+    "enterTitle": "Titel eingeben",
+    "horizontal": "Horizontal",
+    "legend": "Legende",
+    "popup": "Pop-up",
+    "screenshotLayout": "Screenshot-Layout",
+    "screenshotSubtitle": "Wählen Sie zusätzliche Elemente aus, die in die Karte einbezogen werden sollen.",
+    "screenshotTitle": "Bild aufnehmen",
+    "selectAFeature": "Sie können ein Feature auf der Karte auswählen.",
+    "setScreenshotArea": "Kartenbereich festlegen",
+    "takeAScreenshot": "Screenshot aufnehmen",
+    "vertical": "Vertikal",
+    "widgetLabel": "Screenshot"
+  },
+  "shortcutsMapView": {
+    "A": "Gegen den Uhrzeigersinn drehen",
+    "arrowKeys": "Pfeiltasten",
+    "D": "Im Uhrzeigersinn drehen",
+    "minus": "Am Mittelpunkt verkleinern",
+    "N": "Nach Norden ausrichten",
+    "nudge": "Präzise nach links, rechts, oben oder unten ausrichten",
+    "plus": "Am Mittelpunkt vergrößern"
+  },
+  "shortcutsSceneView": {
+    "A": "Kamera gegen den Uhrzeigersinn drehen",
+    "D": "Kamera im Uhrzeigersinn drehen",
+    "globalCommands": {
+      "J": "Nach unten verschieben, näher an die Karte heran",
+      "U": "Nach oben verschieben, weiter von der Karte weg"
+    },
+    "N": "Karte nach Norden ausrichten",
+    "P": "Kamera rechtwinklig zu den in der Karte angezeigten Daten bewegen",
+    "S": "Kamera nach unten neigen",
+    "W": "Kamera nach oben neigen"
+  },
+  "tools": {
+    "coverPage": "Titelseite",
+    "bookmarks": "Lesezeichen öffnen",
+    "close": {
+      "bookmarks": "Lesezeichen schließen",
+      "cluster": "Features durchsuchen",
+      "elevationProfile": "Höhenprofil schließen",
+      "filter": "Filter schließen",
+      "keyboard": "Tastenkombinationen schließen",
+      "languageSwitcher": "Sprachauswahl schließen",
+      "layerList": "Layer-Liste schließen",
+      "legend": "Legende schließen",
+      "measureTools": "Messwerkzeuge schließen",
+      "overviewMap": "Übersichtskarte schließen",
+      "print": "Druckfenster schließen",
+      "screenshot": "Screenshot schließen",
+      "search": "Suche schließen",
+      "share": "Freigabefenster schließen",
+      "splash": "Einführungsfenster schließen",
+      "table": "Tabelle schließen",
+      "time": "Zeiteigenschaften schließen"
+    },
+    "elevationProfile": "Höhenprofil öffnen",
+    "export": "In PDF exportieren",
+    "exportCSV": "In CSV exportieren",
+    "filter": "Filter öffnen",
+    "hideInfo": "Nicht mehr anzeigen",
+    "hoverPopupTip": "Zum Verankern auf Karte klicken",
+    "keyboard": "Tastenkombinationen öffnen",
+    "languageSwitcher": "Sprachauswahl öffnen",
+    "layerList": "Layer-Liste öffnen",
+    "legend": "Legende öffnen",
+    "magnifier": {
+      "factor": "Faktor",
+      "heading": "Lupe",
+      "label": "Lupe öffnen",
+      "size": "Größe",
+      "summary": "Lupe aktivieren und Optionen festlegen"
+    },
+    "measure": {
+      "area": "Fläche messen",
+      "label": "Messwerkzeug öffnen",
+      "line": "Linie messen",
+      "point": "Koordinaten"
+    },
+    "measureTools": "Messwerkzeuge öffnen",
+    "overviewMap": "Übersichtskarte öffnen",
+    "print": "Druckfenster öffnen",
+    "screenshot": "Screenshot öffnen",
+    "search": "Suche öffnen",
+    "share": "Freigabefenster öffnen",
+    "splash": "Einführungsfenster öffnen",
+    "table": "Tabelle öffnen",
+    "time": "Zeiteigenschaften öffnen"
+  }
+}

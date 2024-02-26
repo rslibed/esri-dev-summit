@@ -1,0 +1,23 @@
+{
+  "webmap": "default",
+  "portalUrl": "https://arcgis.com",
+  "oauthappid": "",
+  "localDefaultValues": {
+    "home": true,
+    "mapZoom": true,
+    "legend": false,
+    "search": false,
+    "basemapToggle": false,
+    "bookmarks": true,
+    "compassWidget": false,
+    "keyboardShortcuts": false,
+    "layerList": false,
+    "locateWidget": false,
+    "scalebar": true,
+    "share": true,
+    "interactiveLegend": true,
+    "interactiveLegendPanel": "panel-start",
+    "theme": "light",
+    "title": "2024 Esri Developer Summit: Building an Instant App using TypeScript and ArcGIS Maps SDK for JavaScript"
+  }
+}

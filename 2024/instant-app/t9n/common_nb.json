@@ -1,0 +1,133 @@
+{
+  "analyticsOptIn": "Velg",
+  "clear": "Tøm",
+  "close": "Lukk",
+  "collapse": "Skjul",
+  "copyClipboard": "Kopier til utklippstavle",
+  "enter": "Angi",
+  "error": "Feil",
+  "expand": "Utvid",
+  "export": {
+    "results": "Resultater",
+    "resultsAndMap": "Resultater og kart",
+    "tip": "Skriv ut eller lagre som PDF"
+  },
+  "generalShortcuts": {
+    "action": "Handling",
+    "label": "Hurtigtaster",
+    "menu": "snarveismeny",
+    "shortcut": "Snarvei",
+    "title": "Velg kartet"
+  },
+  "validateAppAccessError": {
+    "message": "Tilgangen til dette programmet er blitt sperret. Kontakt administratoren.",
+    "title": "Tilgang sperret"
+  },
+  "licenseError": {
+    "message": "Kontoen din er ikke lisensiert til å bruke konfigurerbare apper som ikke er offentlige. Be administratoren for organisasjonen om å tilordne deg en brukertype som omfatter Essential Apps eller en tilleggslisens for Essential Apps.",
+    "title": "Ikke lisensiert"
+  },
+  "mapScroll": {
+    "disableMessage": "Deaktiver kartrulling",
+    "enableMessage": "Aktiver kartrulling"
+  },
+  "originError": {
+    "close": "Lukk",
+    "linkMessage": "Fortsett til",
+    "message": "Programmet du prøver å åpne, skriver seg ikke fra URL-en du har oppgitt.",
+    "options": "Avanserte alternativer"
+  },
+  "screenshot": {
+    "backButton": "Gå tilbake til kartet",
+    "deactivateScreenshot": "Deaktiver skjermbildemodus",
+    "downloadImage": "Last ned bilde",
+    "enterTitle": "Angi tittel",
+    "horizontal": "Vannrett",
+    "legend": "Tegnforklaring",
+    "popup": "Popup",
+    "screenshotLayout": "Skjermbildelayout",
+    "screenshotSubtitle": "Velge flere elementer som skal inkluderes med kartet.",
+    "screenshotTitle": "Ta et bilde",
+    "selectAFeature": "Velg et geoobjekt i kartet",
+    "setScreenshotArea": "Angi kartområde",
+    "takeAScreenshot": "Ta et skjermbilde",
+    "vertical": "Loddrett",
+    "widgetLabel": "Skjermbilde"
+  },
+  "shortcutsMapView": {
+    "A": "Roter mot klokken",
+    "arrowKeys": "Piltaster",
+    "D": "Roter med klokken",
+    "minus": "Zoom ut fra midten",
+    "N": "Juster etter nordpunktet",
+    "nudge": "Skyv mot venstre, høyre, oppover eller nedover",
+    "plus": "Zoom inn til midten"
+  },
+  "shortcutsSceneView": {
+    "A": "Roter kameraet mot klokken",
+    "D": "Roter kameraet med klokken",
+    "globalCommands": {
+      "J": "Flytt ned nærmere kartet",
+      "U": "Flytt opp høyere fra kartet"
+    },
+    "N": "Juster kartet etter nordpunktet",
+    "P": "Flytt kameraet for å se vinkelrett på dataene som vises i kartet",
+    "S": "Vipp kameraet ned",
+    "W": "Vipp kameraet opp"
+  },
+  "tools": {
+    "coverPage": "Forside",
+    "bookmarks": "Åpne bokmerker",
+    "close": {
+      "bookmarks": "Lukk bokmerker",
+      "cluster": "Bla gjennom geoobjekter",
+      "elevationProfile": "Lukk høydeprofil",
+      "filter": "Lukk filter",
+      "keyboard": "Lukk hurtigtaster",
+      "languageSwitcher": "Lukk språkveksling",
+      "layerList": "Lukk lagliste",
+      "legend": "Lukk tegnforklaring",
+      "measureTools": "Lukk måleverktøy",
+      "overviewMap": "Lukk oversiktskart",
+      "print": "Lukk utskrift",
+      "screenshot": "Lukk skjermbilde",
+      "search": "Lukk søk",
+      "share": "Lukk delingspanel",
+      "splash": "Lukk introduksjonsvindu",
+      "table": "Lukk tabell",
+      "time": "Lukk klokkeslett"
+    },
+    "elevationProfile": "Åpne høydeprofil",
+    "export": "Eksporter til PDF",
+    "exportCSV": "Eksporter til CSV",
+    "filter": "Åpne filter",
+    "hideInfo": "Ikke vis dette igjen",
+    "hoverPopupTip": "Klikk på kartet for å feste",
+    "keyboard": "Åpne hurtigtaster",
+    "languageSwitcher": "Åpne språkveksling",
+    "layerList": "Åpne lagliste",
+    "legend": "Åpne tegnforklaring",
+    "magnifier": {
+      "factor": "Faktor",
+      "heading": "Forstørrelsesglass",
+      "label": "Åpne Forstørrelsesglass",
+      "size": "Størrelse",
+      "summary": "Aktiver forstørrelsesglasset og angi alternativer"
+    },
+    "measure": {
+      "area": "Mål areal",
+      "label": "Åpne Mål",
+      "line": "Mål linje",
+      "point": "Koordinater"
+    },
+    "measureTools": "Åpne måleverktøy",
+    "overviewMap": "Åpne oversiktskart",
+    "print": "Åpne utskrift",
+    "screenshot": "Åpne skjermbilde",
+    "search": "Åpne søk",
+    "share": "Åpne delingspanel",
+    "splash": "Åpne introduksjonsvindu",
+    "table": "Åpne tabell",
+    "time": "Åpne klokkeslett"
+  }
+}

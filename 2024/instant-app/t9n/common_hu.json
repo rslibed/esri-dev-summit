@@ -1,0 +1,133 @@
+{
+  "analyticsOptIn": "Jóváhagyás",
+  "clear": "Törlés",
+  "close": "Bezárás",
+  "collapse": "Összecsukás",
+  "copyClipboard": "Másolás a vágólapra",
+  "enter": "Megadás",
+  "error": "Hiba",
+  "expand": "Kibontás",
+  "export": {
+    "results": "Eredmények",
+    "resultsAndMap": "Eredmények és térkép",
+    "tip": "Nyomtatás vagy mentés PDF-ként"
+  },
+  "generalShortcuts": {
+    "action": "Művelet",
+    "label": "Gyorsbillentyű kombinációk",
+    "menu": "gyosbillentyűk menü",
+    "shortcut": "Gyorsbillentyű",
+    "title": "Válassza ki a térképet"
+  },
+  "validateAppAccessError": {
+    "message": "A hozzáférés ehhez az alkalmazáshoz blokkolva van. Forduljon adminisztrátorához.",
+    "title": "Hozzáférés blokkolva"
+  },
+  "licenseError": {
+    "message": "Az Ön fiókjának licence nem terjed ki a nem nyilvános konfigurálható alkalmazásokra. Igényelje a szervezete adminisztrátorától, hogy rendeljen Önhöz olyan felhasználótípust, amely tartalmazza az alapvető alkalmazásokat, vagy egy kiegészítő alapvető alkalmazásokra vonatkozó licencet.",
+    "title": "Nincs licence"
+  },
+  "mapScroll": {
+    "disableMessage": "Térkép görgetésének letiltása",
+    "enableMessage": "Térkép görgetésének engedélyezése"
+  },
+  "originError": {
+    "close": "Bezárás",
+    "linkMessage": "Folytatás:",
+    "message": "Az alkalmazás, amelyhez megpróbál hozzáférni, nem a megadott URL-ből eredeztethető.",
+    "options": "Speciális beállítások"
+  },
+  "screenshot": {
+    "backButton": "Vissza a térképhez",
+    "deactivateScreenshot": "Képernyőkép mód kikapcsolása",
+    "downloadImage": "Kép letöltése",
+    "enterTitle": "Cím megadása",
+    "horizontal": "Vízszintes",
+    "legend": "Jelmagyarázat",
+    "popup": "Felugró ablak",
+    "screenshotLayout": "Képernyőkép elrendezése",
+    "screenshotSubtitle": "Válassza ki a térképen megjeleníteni kívánt további elemeket.",
+    "screenshotTitle": "Rögzítsen képet",
+    "selectAFeature": "Válasszon ki egy vektoros elemet a térképen",
+    "setScreenshotArea": "Térképen ábrázolt terület beállítása",
+    "takeAScreenshot": "Képernyőkép készítése",
+    "vertical": "Függőleges",
+    "widgetLabel": "Képernyőkép"
+  },
+  "shortcutsMapView": {
+    "A": "Forgatás az óramutató járásával ellentétes irányba",
+    "arrowKeys": "Navigációs billentyűk",
+    "D": "Forgatás az óramutató járásával megegyező irányba",
+    "minus": "Kicsinyítés középre",
+    "N": "Beállítás észak felé",
+    "nudge": "Balra, jobbra, felfelé vagy lefelé történő elmozdítás",
+    "plus": "Nagyítás középre"
+  },
+  "shortcutsSceneView": {
+    "A": "Kamera forgatása az óramutató járásával ellentétes irányba",
+    "D": "Kamera forgatása az óramutató járásával megegyező irányba",
+    "globalCommands": {
+      "J": "Mozgatás le, a térképhez közelebb",
+      "U": "Mozgatás fel, a térképtől távolabb"
+    },
+    "N": "Térkép beállítása észak felé",
+    "P": "Mozgassa a kamerát úgy, hogy merőlegesen nézzen a térképen megjelenített adatokra.",
+    "S": "Kamera billentése lefelé",
+    "W": "Kamera billentése felfelé"
+  },
+  "tools": {
+    "coverPage": "Címlap",
+    "bookmarks": "Könyvjelzők megnyitása",
+    "close": {
+      "bookmarks": "Könyvjelzők bezárása",
+      "cluster": "Vektoros elemek böngészése",
+      "elevationProfile": "Magasságprofil bezárása",
+      "filter": "Szűrő bezárása",
+      "keyboard": "Billentyűparancsok bezárása",
+      "languageSwitcher": "Nyelvváltó bezárása",
+      "layerList": "Réteglista bezárása",
+      "legend": "Jelmagyarázat bezárása",
+      "measureTools": "Mérőeszközök bezárása",
+      "overviewMap": "Átnézeti térkép bezárása",
+      "print": "Nyomtatás bezárása",
+      "screenshot": "Képernyőkép bezárása",
+      "search": "Keresés bezárása",
+      "share": "Megosztási panel összecsukása",
+      "splash": "Bemutatkozó ablak bezárása",
+      "table": "Táblázat bezárása",
+      "time": "Idő bezárása"
+    },
+    "elevationProfile": "Magasságprofil megnyitása",
+    "export": "Exportálás .PDF-fájlként",
+    "exportCSV": "Exportálás CSV-fájlba",
+    "filter": "Szűrő megnyitása",
+    "hideInfo": "Ne jelenítse meg újból",
+    "hoverPopupTip": "Térképtű hozzáadásához kattintson a térképre",
+    "keyboard": "Gyorsbillentyű kombinációk megnyitása",
+    "languageSwitcher": "Nyelvváltó megnyitása",
+    "layerList": "Réteglista megnyitása",
+    "legend": "Jelmagyarázat megnyitása",
+    "magnifier": {
+      "factor": "Tényező",
+      "heading": "Nagyító",
+      "label": "Nagyító megnyitása",
+      "size": "Méret",
+      "summary": "Nagyító engedélyezése és beállítások"
+    },
+    "measure": {
+      "area": "Területmérés",
+      "label": "Mérés megnyitása",
+      "line": "Vonalmérés",
+      "point": "Koordináták"
+    },
+    "measureTools": "Mérőeszközök megnyitása",
+    "overviewMap": "Átnézeti térkép megnyitása",
+    "print": "Nyomtatás megnyitása",
+    "screenshot": "Képernyőkép megnyitása",
+    "search": "Keresés megnyitása",
+    "share": "Megosztási panel megnyitása",
+    "splash": "Bemutatkozó ablak megnyitása",
+    "table": "Tábla megnyitása",
+    "time": "Idő megnyitása"
+  }
+}

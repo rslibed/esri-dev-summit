@@ -1,0 +1,133 @@
+{
+  "analyticsOptIn": "Tilmeld dig",
+  "clear": "Ryd",
+  "close": "Luk",
+  "collapse": "Fold sammen",
+  "copyClipboard": "Kopiér til udklipsholder",
+  "enter": "Indtast",
+  "error": "Fejl",
+  "expand": "Udvid",
+  "export": {
+    "results": "Resultater",
+    "resultsAndMap": "Resultater og kort",
+    "tip": "Udskriv eller gem som PDF"
+  },
+  "generalShortcuts": {
+    "action": "Handling",
+    "label": "Tastaturgenveje",
+    "menu": "genvejsmenu",
+    "shortcut": "Genvej",
+    "title": "Vælg kortet"
+  },
+  "validateAppAccessError": {
+    "message": "Adgang til denne applikation er blevet blokeret. Kontakt din administrator.",
+    "title": "Adgang blokeret"
+  },
+  "licenseError": {
+    "message": "Din konto har ikke licens til at bruge Konfigurérbare apps, der ikke er offentlige. Bed din organisationsadministrator om at knytte dig til en brugertype, der omfatter Essential Apps eller en add-on Essential Apps-licens.",
+    "title": "Ikke licenseret"
+  },
+  "mapScroll": {
+    "disableMessage": "Deaktiver rulning på kort",
+    "enableMessage": "Aktiver rulning på kort"
+  },
+  "originError": {
+    "close": "Luk",
+    "linkMessage": "Fortsæt til",
+    "message": "Den applikation, som du prøver at få adgang til, stammer ikke fra den URL, du sendte",
+    "options": "Avancerede indstillinger"
+  },
+  "screenshot": {
+    "backButton": "Vend tilbage til kort",
+    "deactivateScreenshot": "Deaktivér screenshot-tilstand",
+    "downloadImage": "Hent billede",
+    "enterTitle": "Indtast titel",
+    "horizontal": "Vandret",
+    "legend": "Forklaring",
+    "popup": "Pop-up-vindue",
+    "screenshotLayout": "Screenshot-layout",
+    "screenshotSubtitle": "Vælg flere elementer, der skal medtages på kortet.",
+    "screenshotTitle": "Tag et billede",
+    "selectAFeature": "Vælg et objekt på kortet",
+    "setScreenshotArea": "Indstil kortområde",
+    "takeAScreenshot": "Tag et screenshot",
+    "vertical": "Lodret",
+    "widgetLabel": "Skærmbillede"
+  },
+  "shortcutsMapView": {
+    "A": "Rotér mod uret",
+    "arrowKeys": "Piletaster",
+    "D": "Rotér med uret",
+    "minus": "Zoom ud fra centrum",
+    "N": "Justér til at pege mod nord",
+    "nudge": "Skub til venstre, højre, op eller ned",
+    "plus": "Zoom ind på centrum"
+  },
+  "shortcutsSceneView": {
+    "A": "Rotér kameraet mod uret",
+    "D": "Rotér kameraet med uret",
+    "globalCommands": {
+      "J": "Bevæg nedad – tættere på kortet",
+      "U": "Bevæg opad – højere op fra kortet"
+    },
+    "N": "Justér kortet, så det peger mod nord",
+    "P": "Bevæg kameraet for at få en lodret visning af de data, der vises på kortet",
+    "S": "Vip kameraet ned",
+    "W": "Vip kameraet op"
+  },
+  "tools": {
+    "coverPage": "Forside",
+    "bookmarks": "Åbn bogmærker",
+    "close": {
+      "bookmarks": "Luk bogmærker",
+      "cluster": "Gennemse objekter",
+      "elevationProfile": "Luk højdeprofil",
+      "filter": "Luk filter",
+      "keyboard": "Luk tastaturgenveje",
+      "languageSwitcher": "Luk sprog-skifter",
+      "layerList": "Luk lagliste",
+      "legend": "Luk signaturforklaring",
+      "measureTools": "Luk måleværktøjer",
+      "overviewMap": "Luk oversigtskort",
+      "print": "Luk udskrivning",
+      "screenshot": "Luk screenshot",
+      "search": "Luk søgning",
+      "share": "Luk delingspanel",
+      "splash": "Luk introduktionsvindue",
+      "table": "Luk tabel",
+      "time": "Luk tid"
+    },
+    "elevationProfile": "Åbn højdeprofil",
+    "export": "Eksporter til PDF",
+    "exportCSV": "Eksportér til CSV",
+    "filter": "Åbn filter",
+    "hideInfo": "Vis ikke igen",
+    "hoverPopupTip": "Klik på kortet for at tilføje en kortnål",
+    "keyboard": "Åbn tastaturgenveje",
+    "languageSwitcher": "Åbn sprog-skifter",
+    "layerList": "Åbn lagliste",
+    "legend": "Åbn signaturforklaring",
+    "magnifier": {
+      "factor": "Faktor",
+      "heading": "Forstørrelsesglas",
+      "label": "Åbn forstørrelsesglas",
+      "size": "Størrelse",
+      "summary": "Aktivér forstørrelsesglas, og angiv indstillinger"
+    },
+    "measure": {
+      "area": "Opmål område",
+      "label": "Åbn opmåling",
+      "line": "Opmål linje",
+      "point": "Koordinater"
+    },
+    "measureTools": "Åbn måleværktøjer",
+    "overviewMap": "Åbn oversigtskort",
+    "print": "Åbn udskrivning",
+    "screenshot": "Åbn screenshot",
+    "search": "Åbn søgning",
+    "share": "Åbn delingspanel",
+    "splash": "Åbn introduktionsvindue",
+    "table": "Åbn tabel",
+    "time": "Åbn tid"
+  }
+}

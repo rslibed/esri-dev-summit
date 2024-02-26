@@ -1,0 +1,133 @@
+{
+  "analyticsOptIn": "Optar por participar",
+  "clear": "Apagar",
+  "close": "Fechar",
+  "collapse": "Recolher",
+  "copyClipboard": "Copiar para a área de transferência",
+  "enter": "Introduzir",
+  "error": "Erro",
+  "expand": "Expandir",
+  "export": {
+    "results": "Resultados",
+    "resultsAndMap": "Resultados e mapa",
+    "tip": "Imprimir ou guardar como PDF"
+  },
+  "generalShortcuts": {
+    "action": "Ação",
+    "label": "Atalhos de teclado",
+    "menu": "menu de atalhos",
+    "shortcut": "Atalho",
+    "title": "Selecione o mapa"
+  },
+  "validateAppAccessError": {
+    "message": "O acesso a esta aplicação foi bloqueado. Entre em contacto com o seu administrador.",
+    "title": "Acesso bloqueado"
+  },
+  "licenseError": {
+    "message": "A sua conta não está licenciada para usar aplicações configuráveis não públicas. Peça ao administrador da sua organização para lhe atribuir um tipo de utilizador que inclua a licença para aplicações essenciais ou aplicações essenciais complementares.",
+    "title": "Não licenciado"
+  },
+  "mapScroll": {
+    "disableMessage": "Desativar rolagem do mapa",
+    "enableMessage": "Ativar scroll do mapa"
+  },
+  "originError": {
+    "close": "Fechar",
+    "linkMessage": "Prossiga para",
+    "message": "A aplicação a que está a tentar aceder não tem origem no URL facultado",
+    "options": "Opções avançadas"
+  },
+  "screenshot": {
+    "backButton": "Regressar ao mapa",
+    "deactivateScreenshot": "Desativar modo de captura de ecrã",
+    "downloadImage": "Transferir Imagem",
+    "enterTitle": "Introduzir título",
+    "horizontal": "Horizontal",
+    "legend": "Legenda",
+    "popup": "Janela pop-up",
+    "screenshotLayout": "Layout da captura de ecrã",
+    "screenshotSubtitle": "Selecione elementos adicionais a incluir com o mapa.",
+    "screenshotTitle": "Capturar uma imagem",
+    "selectAFeature": "Selecione um elemento no mapa",
+    "setScreenshotArea": "Definir a área do mapa",
+    "takeAScreenshot": "Obter captura de ecrã",
+    "vertical": "Vertical",
+    "widgetLabel": "Captura de Ecrã"
+  },
+  "shortcutsMapView": {
+    "A": "Rodar no sentido inverso ao dos ponteiros do relógio",
+    "arrowKeys": "Teclas de setas",
+    "D": "Rodar no sentido dos ponteiros do relógio",
+    "minus": "Reduzir o zoom no centro",
+    "N": "Ajustar para apontar para Norte",
+    "nudge": "Deslocar para a esquerda, direita, para cima ou para baixo",
+    "plus": "Aumentar o zoom no centro"
+  },
+  "shortcutsSceneView": {
+    "A": "Rodar a câmara no sentido inverso ao dos ponteiros do relógio",
+    "D": "Rodar a câmara no sentido dos ponteiros do relógio",
+    "globalCommands": {
+      "J": "Mover para baixo para perto do mapa",
+      "U": "Mover para cima para longe do mapa"
+    },
+    "N": "Ajustar o mapa para apontar para Norte",
+    "P": "Mover a câmara para ficar perpendicular aos dados exibidos no mapa",
+    "S": "Inclinar a câmara para baixo",
+    "W": "Inclinar a câmara para cima"
+  },
+  "tools": {
+    "coverPage": "Página de capa",
+    "bookmarks": "Abrir marcadores",
+    "close": {
+      "bookmarks": "Fechar marcadores",
+      "cluster": "Procurar elementos",
+      "elevationProfile": "Fechar perfil de elevação",
+      "filter": "Fechar filtro",
+      "keyboard": "Fechar atalhos de teclado",
+      "languageSwitcher": "Fechar alternador de idioma",
+      "layerList": "Fechar lista de camadas",
+      "legend": "Fechar legenda",
+      "measureTools": "Fechar ferramenta de medição",
+      "overviewMap": "Fechar o mapa overview",
+      "print": "Fechar impressão",
+      "screenshot": "Fechar captura de ecrã",
+      "search": "Fechar pesquisa",
+      "share": "Fechar painel de partilha",
+      "splash": "Fechar janela de introdução",
+      "table": "Fechar tabela",
+      "time": "Fechar tempo"
+    },
+    "elevationProfile": "Abrir perfil de elevação",
+    "export": "Exportar para PDF",
+    "exportCSV": "Exportar para CSV",
+    "filter": "Abrir filtro",
+    "hideInfo": "Não exibir novamente",
+    "hoverPopupTip": "Clique no mapa para fixar",
+    "keyboard": "Abrir atalhos de teclado",
+    "languageSwitcher": "Abrir alternador de idioma",
+    "layerList": "Abrir lista de camadas",
+    "legend": "Abrir legenda",
+    "magnifier": {
+      "factor": "Fator",
+      "heading": "Lupa",
+      "label": "Abrir Lupa",
+      "size": "Tamanho",
+      "summary": "Ativar a lupa e as opções do conjunto"
+    },
+    "measure": {
+      "area": "Medir área",
+      "label": "Abrir Medição",
+      "line": "Medir linha",
+      "point": "Coordenadas"
+    },
+    "measureTools": "Abrir ferramentas de medição",
+    "overviewMap": "Abrir mapa de overview",
+    "print": "Abrir impressão",
+    "screenshot": "Abrir captura de ecrã",
+    "search": "Abrir pesquisa",
+    "share": "Abrir painel de partilha",
+    "splash": "Abrir janela de introdução",
+    "table": "Abrir tabela",
+    "time": "Abrir tempo"
+  }
+}

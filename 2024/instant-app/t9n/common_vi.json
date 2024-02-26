@@ -1,0 +1,133 @@
+{
+  "analyticsOptIn": "Đăng ký",
+  "clear": "Xóa",
+  "close": "Đóng",
+  "collapse": "Thu gọn",
+  "copyClipboard": "Sao chép vào bảng tạm",
+  "enter": "Nhập",
+  "error": "Lỗi",
+  "expand": "Mở rộng",
+  "export": {
+    "results": "Kết quả",
+    "resultsAndMap": "Kết quả và bản đồ",
+    "tip": "In hoặc lưu dưới dạng PDF"
+  },
+  "generalShortcuts": {
+    "action": "Hành động",
+    "label": "Shortcut của bàn phím",
+    "menu": "menu phím tắt",
+    "shortcut": "Phím tắt",
+    "title": "Chọn bản đồ"
+  },
+  "validateAppAccessError": {
+    "message": "Quyền truy cập vào ứng dụng này đã bị chặn. Vui lòng liên hệ với quản trị viên của bạn.",
+    "title": "Quyền truy cập bị chặn"
+  },
+  "licenseError": {
+    "message": "Tài khoản của bạn không được cấp phép để sử dụng ứng dụng có thể cấu hình mà không được công khai. Vui lòng yêu cầu quản trị viên của tổ chức bạn gán cho bạn loại người dùng nào có bao gồm các ứng dụng thiết yếu hoặc có giấy phép sử dụng các ứng dụng thiết yếu bổ trợ.",
+    "title": "Không được cấp phép"
+  },
+  "mapScroll": {
+    "disableMessage": "Tắt cuộn bản đồ",
+    "enableMessage": "Bật chế độ cuộn bản đồ"
+  },
+  "originError": {
+    "close": "Đóng",
+    "linkMessage": "Tiếp tục tới",
+    "message": "Ứng dụng bạn đang cố gắng truy cập không có nguồn gốc từ URL bạn đã cung cấp",
+    "options": "Tùy chọn nâng cao"
+  },
+  "screenshot": {
+    "backButton": "Quay lại bản đồ",
+    "deactivateScreenshot": "Tắt chế độ chụp ảnh màn hình",
+    "downloadImage": "Tải về Hình ảnh",
+    "enterTitle": "Nhập tiêu đề",
+    "horizontal": "Ngang",
+    "legend": "Chú giải",
+    "popup": "Cửa sổ pop-up",
+    "screenshotLayout": "Bố cục ảnh chụp màn hình",
+    "screenshotSubtitle": "Chọn các yếu tố bổ sung để đưa vào bản đồ.",
+    "screenshotTitle": "Chụp ảnh",
+    "selectAFeature": "Chọn một đối tượng trên bản đồ",
+    "setScreenshotArea": "Thiết lập khu vực bản đồ",
+    "takeAScreenshot": "Chụp ảnh màn hình",
+    "vertical": "Dọc",
+    "widgetLabel": "Chụp ảnh màn hình"
+  },
+  "shortcutsMapView": {
+    "A": "Xoay ngược chiều kim đồng hồ",
+    "arrowKeys": "Các phím mũi tên",
+    "D": "Xoay theo chiều kim đồng hồ",
+    "minus": "Thu nhỏ tại tâm",
+    "N": "Điều chỉnh sang hướng bắc",
+    "nudge": "Di chuyển sang trái, phải, lên hoặc xuống",
+    "plus": "Phóng to tại tâm"
+  },
+  "shortcutsSceneView": {
+    "A": "Xoay máy ảnh ngược chiều kim đồng hồ",
+    "D": "Xoay máy ảnh theo chiều kim đồng hồ",
+    "globalCommands": {
+      "J": "Di chuyển xuống gần bản đồ hơn",
+      "U": "Di chuyển lên cao hơn so với bản đồ"
+    },
+    "N": "Điều chỉnh bản đồ sang hướng bắc",
+    "P": "Di chuyển máy ảnh để nhìn vuông góc với dữ liệu hiển thị trên bản đồ",
+    "S": "Nghiêng máy ảnh xuống",
+    "W": "Nghiêng máy ảnh lên"
+  },
+  "tools": {
+    "coverPage": "Trang bìa",
+    "bookmarks": "Mở đánh dấu phạm vi",
+    "close": {
+      "bookmarks": "Đóng đánh dấu phạm vi",
+      "cluster": "Duyệt tìm đối tượng",
+      "elevationProfile": "Đóng thông tin độ cao",
+      "filter": "Đóng bộ lọc",
+      "keyboard": "Đóng phím tắt của bàn phím",
+      "languageSwitcher": "Đóng trình chuyển đổi ngôn ngữ",
+      "layerList": "Đóng danh sách lớp",
+      "legend": "Đóng chú giải",
+      "measureTools": "Đóng công cụ đo lường",
+      "overviewMap": "Đóng bản đồ tổng quan",
+      "print": "Đóng bản in",
+      "screenshot": "Đóng ảnh chụp màn hình",
+      "search": "Đóng tìm kiếm",
+      "share": "Đóng bảng chia sẻ",
+      "splash": "Đóng cửa sổ giới thiệu",
+      "table": "Đóng bảng",
+      "time": "Đóng thời gian"
+    },
+    "elevationProfile": "Mở thông tin độ cao",
+    "export": "Xuất sang PDF",
+    "exportCSV": "Xuất thành CSV",
+    "filter": "Mở bộ lọc",
+    "hideInfo": "Đừng hiển thị lại điều này",
+    "hoverPopupTip": "Nhấp vào bản đồ để ghim",
+    "keyboard": "Mở phím tắt bàn phím",
+    "languageSwitcher": "Mở trình chuyển đổi ngôn ngữ",
+    "layerList": "Mở danh sách lớp",
+    "legend": "Mở chú giải",
+    "magnifier": {
+      "factor": "Yếu tố",
+      "heading": "Kính lúp",
+      "label": "Mở Kính lúp",
+      "size": "Kích thước",
+      "summary": "Bật kính lúp và thiết lập các tùy chọn"
+    },
+    "measure": {
+      "area": "Đo diện tích",
+      "label": "Mở Đo lường",
+      "line": "Đo đường thẳng",
+      "point": "Tọa độ"
+    },
+    "measureTools": "Mở công cụ đo lường",
+    "overviewMap": "Mở bản đồ tổng quan",
+    "print": "Mở bản in",
+    "screenshot": "Mở ảnh chụp màn hình",
+    "search": "Mở tìm kiếm",
+    "share": "Mở bảng chia sẻ",
+    "splash": "Mở cửa sổ giới thiệu",
+    "table": "Mở bảng",
+    "time": "Mở thời gian"
+  }
+}

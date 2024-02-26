@@ -1,0 +1,133 @@
+{
+  "analyticsOptIn": "הצטרף",
+  "clear": "נקה",
+  "close": "סגירה",
+  "collapse": "צמצם",
+  "copyClipboard": "העתק ללוח",
+  "enter": "כניסה",
+  "error": "שגיאה",
+  "expand": "הרחב",
+  "export": {
+    "results": "תוצאות",
+    "resultsAndMap": "תוצאות ומפה",
+    "tip": "הדפס או שמור כ-PDF"
+  },
+  "generalShortcuts": {
+    "action": "פעולה",
+    "label": "מקשי קיצור",
+    "menu": "תפריט קיצורים",
+    "shortcut": "קיצור דרך",
+    "title": "בחר במפה"
+  },
+  "validateAppAccessError": {
+    "message": "הגישה לאפליקציה זו נחסמה. אנא פנה למנהל המערכת שלך.",
+    "title": "הגישה נחסמה"
+  },
+  "licenseError": {
+    "message": "החשבון שלך אינו מורשה להשתמש באפליקציות הניתנות להגדרה שאינן ציבוריות. בקש ממנהל המערכת בארגון שלך להקצות לך סוג משתמש שכולל את Essential Apps או רישיון הרחבה ל-Essential Apps.",
+    "title": "ללא רישיון"
+  },
+  "mapScroll": {
+    "disableMessage": "השבת גלילת מפה",
+    "enableMessage": "הפעל גלילת מפה"
+  },
+  "originError": {
+    "close": "סגירה",
+    "linkMessage": "המשך אל",
+    "message": "היישום שאתה מנסה לגשת אליו לא נמצא בכתובת ה-URL שציינת",
+    "options": "אפשרויות מתקדמות"
+  },
+  "screenshot": {
+    "backButton": "חזור למפה",
+    "deactivateScreenshot": "השבת מצב צילום מסך",
+    "downloadImage": "הורדת תמונה",
+    "enterTitle": "הזן כותרת",
+    "horizontal": "אופקי",
+    "legend": "מקרא",
+    "popup": "חלון קופץ",
+    "screenshotLayout": "פריסת צילום מסך",
+    "screenshotSubtitle": "בחר רכיבים נוספים שייכללו במפה.",
+    "screenshotTitle": "צלם תמונה",
+    "selectAFeature": "בחר ישות במפה",
+    "setScreenshotArea": "הגדר את אזור המפה",
+    "takeAScreenshot": "צלם צילום מסך",
+    "vertical": "אנכי",
+    "widgetLabel": "צילום מסך"
+  },
+  "shortcutsMapView": {
+    "A": "סובב נגד כיוון השעון",
+    "arrowKeys": "מקשי חיצים",
+    "D": "סובב בכיוון השעון",
+    "minus": "בצע זום החוצה במרכז",
+    "N": "התאם לכיוון צפון",
+    "nudge": "הזז קלות שמאלה, ימינה, למעלה או למטה",
+    "plus": "בצע זום פנימה במרכז"
+  },
+  "shortcutsSceneView": {
+    "A": "סובב את המצלמה נגד כיוון השעון",
+    "D": "סובב את המצלמלה בכיוון השעון",
+    "globalCommands": {
+      "J": "הזז למטה קרוב יותר למפה",
+      "U": "הזז למעלה גבוה יותר מהמפה"
+    },
+    "N": "התאם את המפה לכיוון צפון",
+    "P": "הזז את המצלמה לתצוגה בניצב לנתונים שמוצגים במפה",
+    "S": "הטה את המצלמה למטה",
+    "W": "הטה את המצלמה למעלה"
+  },
+  "tools": {
+    "coverPage": "דף שער",
+    "bookmarks": "פתח סימניות",
+    "close": {
+      "bookmarks": "סגור סימניות",
+      "cluster": "דפדף ביישויות",
+      "elevationProfile": "סגור פרופיל גובה",
+      "filter": "סגור מסנן",
+      "keyboard": "סגור מקשי קיצור",
+      "languageSwitcher": "סגור את כלי המעבר בין שפות",
+      "layerList": "סגור רשימת שכבות",
+      "legend": "פתח מקרא",
+      "measureTools": "סגור כלי מדידה",
+      "overviewMap": "סגור מפת התמצאות",
+      "print": "סגור הדפסה",
+      "screenshot": "סגור צילום מסך",
+      "search": "סגור חיפוש",
+      "share": "סגור את לוח השיתוף",
+      "splash": "סגור חלון הקדמה",
+      "table": "סגור טבלה",
+      "time": "סגור זמן"
+    },
+    "elevationProfile": "פתח פרופיל גובה",
+    "export": "ייצא ל-PDF",
+    "exportCSV": "יצוא ל-CSV",
+    "filter": "פתח פילטר",
+    "hideInfo": "אל תציג שוב",
+    "hoverPopupTip": "לחץ על המפה כדי להצמיד",
+    "keyboard": "פתח מקשי קיצור",
+    "languageSwitcher": "פתח את כלי המעבר בין שפות",
+    "layerList": "פתח רשימת שכבות",
+    "legend": "פתח מקרא",
+    "magnifier": {
+      "factor": "גורם",
+      "heading": "מגדיל",
+      "label": "פתח מגדיל",
+      "size": "גודל",
+      "summary": "הפעל מגדיל והגדר אפשרויות"
+    },
+    "measure": {
+      "area": "מדידת אזור",
+      "label": "פתח מדידה",
+      "line": "מדידת קו",
+      "point": "קואורדינטות"
+    },
+    "measureTools": "פתח כלי מדידה",
+    "overviewMap": "פתח מפת התמצאות",
+    "print": "פתח הדפסה",
+    "screenshot": "פתח צילום מסך",
+    "search": "פתח חיפוש",
+    "share": "פתח לוח שיתוף",
+    "splash": "פתח חלון הקדמה",
+    "table": "פתח טבלה",
+    "time": "פתח זמן"
+  }
+}

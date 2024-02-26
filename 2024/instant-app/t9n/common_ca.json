@@ -1,0 +1,133 @@
+{
+  "analyticsOptIn": "Autoritza",
+  "clear": "Esborra",
+  "close": "Tanca",
+  "collapse": "Redueix",
+  "copyClipboard": "Copia-ho al porta-retalls",
+  "enter": "Introdueix",
+  "error": "Error",
+  "expand": "Amplia",
+  "export": {
+    "results": "Resultats",
+    "resultsAndMap": "Resultats i mapa",
+    "tip": "Imprimeix o desa com a PDF"
+  },
+  "generalShortcuts": {
+    "action": "Acció",
+    "label": "Dreceres de teclat",
+    "menu": "menú de dreceres",
+    "shortcut": "Drecera",
+    "title": "Seleccioneu el mapa"
+  },
+  "validateAppAccessError": {
+    "message": "S'ha bloquejat l'accés a aquesta aplicació. Poseu-vos en contacte amb l'administrador.",
+    "title": "Accés bloquejat"
+  },
+  "licenseError": {
+    "message": "El vostre compte no té llicència per utilitzar aplicacions configurables que no siguin públiques. Demaneu a l'administrador de l'organització que us assigni un tipus d'usuari que inclogui les aplicacions bàsiques o una llicència d'aplicacions bàsiques de complement.",
+    "title": "Sense llicència"
+  },
+  "mapScroll": {
+    "disableMessage": "Deshabilita el desplaçament del mapa",
+    "enableMessage": "Habilita el desplaçament del mapa"
+  },
+  "originError": {
+    "close": "Tanca",
+    "linkMessage": "Continua",
+    "message": "L'aplicació a la qual esteu intentant accedir no té el seu origen en l'URL que heu facilitat",
+    "options": "Opcions avançades"
+  },
+  "screenshot": {
+    "backButton": "Torna al mapa",
+    "deactivateScreenshot": "Desactiva el mode de captura de pantalla",
+    "downloadImage": "Baixa la imatge",
+    "enterTitle": "Introduïu el títol",
+    "horizontal": "Horitzontal",
+    "legend": "Llegenda",
+    "popup": "Finestra emergent",
+    "screenshotLayout": "Disseny de la captura de pantalla",
+    "screenshotSubtitle": "Seleccioneu elements addicionals per incloure'ls al mapa.",
+    "screenshotTitle": "Captura una imatge",
+    "selectAFeature": "Seleccioneu una entitat al mapa",
+    "setScreenshotArea": "Defineix l'àrea del mapa",
+    "takeAScreenshot": "Fes una captura de pantalla",
+    "vertical": "Vertical",
+    "widgetLabel": "Captura de pantalla"
+  },
+  "shortcutsMapView": {
+    "A": "Gira cap a l'esquerra",
+    "arrowKeys": "Tecles de direcció",
+    "D": "Gira cap a la dreta",
+    "minus": "Allunya el centre",
+    "N": "Ajusta perquè apunti al nord",
+    "nudge": "Desplaça a l'esquerra, la dreta, amunt o avall",
+    "plus": "Apropa el centre"
+  },
+  "shortcutsSceneView": {
+    "A": "Gira la càmera cap a l'esquerra",
+    "D": "Gira la càmera cap a la dreta",
+    "globalCommands": {
+      "J": "Mou cap avall més a prop del mapa",
+      "U": "Mou cap amunt per sobre del mapa"
+    },
+    "N": "Ajusta el mapa perquè apunti al nord",
+    "P": "Mou la càmera perquè apunti en sentit perpendicular a les dades que es mostren al mapa",
+    "S": "Inclina la càmera cap avall",
+    "W": "Inclina la càmera cap amunt"
+  },
+  "tools": {
+    "coverPage": "Pàgina de portada",
+    "bookmarks": "Obre els marcadors",
+    "close": {
+      "bookmarks": "Tanca els marcadors",
+      "cluster": "Cerca entitats",
+      "elevationProfile": "Tanca el perfil d'elevació",
+      "filter": "Tanca el filtre",
+      "keyboard": "Tanca els accessos directes del teclat",
+      "languageSwitcher": "Tanca el commutador de llengua",
+      "layerList": "Tanca la llista de capes",
+      "legend": "Tanca la llegenda",
+      "measureTools": "Tanca les eines de mesura",
+      "overviewMap": "Tanca el mapa de situació",
+      "print": "Tanca la impressió",
+      "screenshot": "Tanca la captura de pantalla",
+      "search": "Tanca la cerca",
+      "share": "Tanca la subfinestra d'ús compartit",
+      "splash": "Tanca la finestra d'introducció",
+      "table": "Tanca la taula",
+      "time": "Tanca l'hora"
+    },
+    "elevationProfile": "Obre el perfil d'elevació",
+    "export": "Exporta-ho a PDF",
+    "exportCSV": "Exporta a CSV",
+    "filter": "Obre el filtre",
+    "hideInfo": "No ho tornis a mostrar",
+    "hoverPopupTip": "Feu clic en un mapa per col·locar una xinxeta",
+    "keyboard": "Obre els accessos directes del teclat",
+    "languageSwitcher": "Obre el commutador de llengua",
+    "layerList": "Obre la llista de capes",
+    "legend": "Obre la llegenda",
+    "magnifier": {
+      "factor": "Factor",
+      "heading": "Lupa",
+      "label": "Obre la lupa",
+      "size": "Mida",
+      "summary": "Habilita la lupa i defineix les opcions"
+    },
+    "measure": {
+      "area": "Àrea de mesura",
+      "label": "Obre la mesura",
+      "line": "Línia de mesura",
+      "point": "Coordenades"
+    },
+    "measureTools": "Obre les eines de mesura",
+    "overviewMap": "Obre el mapa de situació",
+    "print": "Obre la impressió",
+    "screenshot": "Obre la captura de pantalla",
+    "search": "Obre la cerca",
+    "share": "Obre la subfinestra d'ús compartit",
+    "splash": "Obre la finestra d'introducció",
+    "table": "Obre la taula",
+    "time": "Obre l'hora"
+  }
+}

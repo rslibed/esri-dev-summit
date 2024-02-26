@@ -1,0 +1,133 @@
+{
+  "analyticsOptIn": "Accepter",
+  "clear": "Effacer",
+  "close": "Fermer",
+  "collapse": "Réduire",
+  "copyClipboard": "Copier vers le Presse-papiers",
+  "enter": "Entrer",
+  "error": "Erreur",
+  "expand": "Développer",
+  "export": {
+    "results": "Résultats",
+    "resultsAndMap": "Résultats et carte",
+    "tip": "Imprimer ou enregistrer au format PDF"
+  },
+  "generalShortcuts": {
+    "action": "Action",
+    "label": "Raccourcis clavier",
+    "menu": "menu Raccourcis",
+    "shortcut": "Raccourci",
+    "title": "Sélectionner la carte"
+  },
+  "validateAppAccessError": {
+    "message": "L’accès à cette application a été bloqué. Contactez votre administrateur.",
+    "title": "Accès bloqué"
+  },
+  "licenseError": {
+    "message": "La licence de votre compte ne permet pas d’utiliser des applications configurables non publiques. Demandez à l’administrateur de votre organisation de vous attribuer un type d’utilisateur qui inclut une licence Essential Apps ou une licence Essential Apps additionnelle.",
+    "title": "Pas de licence"
+  },
+  "mapScroll": {
+    "disableMessage": "Désactiver le défilement de la carte",
+    "enableMessage": "Activer le défilement de la carte"
+  },
+  "originError": {
+    "close": "Fermer",
+    "linkMessage": "Poursuivre vers",
+    "message": "L’application à laquelle vous essayez d’accéder n’est pas disponible à l’URL que vous avez indiquée",
+    "options": "Options avancées"
+  },
+  "screenshot": {
+    "backButton": "Revenir à la carte",
+    "deactivateScreenshot": "Désactiver le mode Capture d’écran",
+    "downloadImage": "Télécharger l’image",
+    "enterTitle": "Saisir un titre",
+    "horizontal": "Horizontal",
+    "legend": "Légende",
+    "popup": "Fenêtre contextuelle",
+    "screenshotLayout": "Mise en page de la capture d’écran",
+    "screenshotSubtitle": "Sélectionner des éléments supplémentaires à inclure avec la carte.",
+    "screenshotTitle": "Capturer une image",
+    "selectAFeature": "Sélectionner une entité sur la carte",
+    "setScreenshotArea": "Définir la zone cartographique",
+    "takeAScreenshot": "Prendre une capture d’écran",
+    "vertical": "Vertical",
+    "widgetLabel": "Capture d’écran"
+  },
+  "shortcutsMapView": {
+    "A": "Rotation anti-horaire",
+    "arrowKeys": "Touches de direction",
+    "D": "Rotation horaire",
+    "minus": "Zoom arrière au centre",
+    "N": "Ajuster pour pointer vers le nord",
+    "nudge": "Repositionner à gauche, à droite, en haut ou en bas",
+    "plus": "Zoom avant au centre"
+  },
+  "shortcutsSceneView": {
+    "A": "Rotation anti-horaire de la caméra",
+    "D": "Rotation horaire de la caméra",
+    "globalCommands": {
+      "J": "Déplacer vers le bas en se rapprochant de la carte",
+      "U": "Déplacer vers le haut en s'éloignant de la carte"
+    },
+    "N": "Ajuster la carte pour qu’elle pointe vers le nord",
+    "P": "Placer la caméra perpendiculairement aux données affichées dans la carte",
+    "S": "Incliner la caméra vers le bas",
+    "W": "Incliner la caméra vers le haut"
+  },
+  "tools": {
+    "coverPage": "Page de couverture",
+    "bookmarks": "Ouvrir Géosignets",
+    "close": {
+      "bookmarks": "Fermer Géosignets",
+      "cluster": "Parcourir les entités",
+      "elevationProfile": "Fermer Profil d’élévation",
+      "filter": "Fermer Filtrer",
+      "keyboard": "Fermer Raccourcis clavier",
+      "languageSwitcher": "Fermer Sélecteur de langue",
+      "layerList": "Fermer Liste des couches",
+      "legend": "Fermer Légende",
+      "measureTools": "Fermer les outils Mesurer",
+      "overviewMap": "Fermer Carte globale",
+      "print": "Fermer Imprimer",
+      "screenshot": "Fermer Capture d’écran",
+      "search": "Fermer Rechercher",
+      "share": "Fermer le volet Partager",
+      "splash": "Fermer Fenêtre de présentation",
+      "table": "Fermer Table",
+      "time": "Fermer Temps"
+    },
+    "elevationProfile": "Ouvrir Profil d’élévation",
+    "export": "Exporter au format PDF",
+    "exportCSV": "Exporter au format CSV",
+    "filter": "Ouvrir Filtrer",
+    "hideInfo": "Ne plus afficher ce message",
+    "hoverPopupTip": "Cliquer sur la carte pour ajouter une épingle",
+    "keyboard": "Ouvrir Raccourcis clavier",
+    "languageSwitcher": "Ouvrir Sélecteur de langue",
+    "layerList": "Ouvrir Liste des couches",
+    "legend": "Ouvrir Légende",
+    "magnifier": {
+      "factor": "Facteur",
+      "heading": "Loupe",
+      "label": "Ouvrir la loupe",
+      "size": "Taille",
+      "summary": "Activer la loupe et définir les options"
+    },
+    "measure": {
+      "area": "Mesurer une surface",
+      "label": "Ouvrir les outils de mesure",
+      "line": "Mesurer une ligne",
+      "point": "Coordonnées"
+    },
+    "measureTools": "Ouvrir les outils Mesurer",
+    "overviewMap": "Ouvrir Carte globale",
+    "print": "Ouvrir Imprimer",
+    "screenshot": "Ouvrir Capture d’écran",
+    "search": "Ouvrir Rechercher",
+    "share": "Ouvrir le volet Partager",
+    "splash": "Ouvrir Fenêtre de présentation",
+    "table": "Ouvrir Table",
+    "time": "Ouvrir Temps"
+  }
+}

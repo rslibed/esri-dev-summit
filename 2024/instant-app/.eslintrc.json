@@ -1,0 +1,16 @@
+{
+  "root": false,
+  "extends": ["plugin:react/recommended", "plugin:react-hooks/recommended", "plugin:react/jsx-runtime"],
+  "ignorePatterns": ["*.js", "vite.config.ts"],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "project": "./instant/react-starter/tsconfig.json"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "plugins": ["react"]
+}

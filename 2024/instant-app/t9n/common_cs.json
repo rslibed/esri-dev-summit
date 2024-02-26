@@ -1,0 +1,133 @@
+{
+  "analyticsOptIn": "Přihlaste se",
+  "clear": "Zrušit výběr",
+  "close": "Zavřít",
+  "collapse": "Sbalit",
+  "copyClipboard": "Kopírovat do schránky",
+  "enter": "Zadat",
+  "error": "Chyba",
+  "expand": "Rozbalit",
+  "export": {
+    "results": "Výsledky",
+    "resultsAndMap": "Výsledky a mapa",
+    "tip": "Vytisknout nebo uložit jako PDF"
+  },
+  "generalShortcuts": {
+    "action": "Akce",
+    "label": "Klávesové zkratky",
+    "menu": "nabídka zkratek",
+    "shortcut": "Zkratka",
+    "title": "Vybrat mapu"
+  },
+  "validateAppAccessError": {
+    "message": "Přístup k této aplikaci byl zakázán. Kontaktujte prosím administrátora.",
+    "title": "Přístup zakázán"
+  },
+  "licenseError": {
+    "message": "Váš účet nevlastní licenci k používání konfigurovatelných aplikací, které nejsou veřejné. Požádejte prosím správce své organizace, aby vám přidělil typ uživatele, jehož součástí jsou základní aplikace nebo doplňková licence základních aplikací.",
+    "title": "Chybí licence"
+  },
+  "mapScroll": {
+    "disableMessage": "Vypnout rolování mapy",
+    "enableMessage": "Zapnout rolování mapy"
+  },
+  "originError": {
+    "close": "Zavřít",
+    "linkMessage": "Pokračujte na",
+    "message": "Aplikace, ke které se snažíte získat přístup, nepochází z adresy URL, kterou jste zadali",
+    "options": "Pokročilé možnosti"
+  },
+  "screenshot": {
+    "backButton": "Vrátit se na mapu",
+    "deactivateScreenshot": "Deaktivujte režim snímku obrazovky",
+    "downloadImage": "Stáhnout snímek",
+    "enterTitle": "Zadat název",
+    "horizontal": "Vodorovně",
+    "legend": "Legenda",
+    "popup": "Vyskakovací okno",
+    "screenshotLayout": "Rozvržení snímku obrazovky",
+    "screenshotSubtitle": "Vyberte další mapové elementy, které mají být v mapě zahrnuty.",
+    "screenshotTitle": "Pořiďte snímek",
+    "selectAFeature": "Vyberte prvek v mapě",
+    "setScreenshotArea": "Nastavit oblast mapy",
+    "takeAScreenshot": "Pořiďte snímek obrazovky",
+    "vertical": "Svisle",
+    "widgetLabel": "Snímek obrazovky"
+  },
+  "shortcutsMapView": {
+    "A": "Otáčení proti směru hodinových ručiček",
+    "arrowKeys": "Klávesy šipek",
+    "D": "Otáčení ve směru hodinových ručiček",
+    "minus": "Oddálení od středu",
+    "N": "Nasměrovat na sever",
+    "nudge": "Posunutí doleva, doprava, nahoru nebo dolů",
+    "plus": "Přiblížení na střed"
+  },
+  "shortcutsSceneView": {
+    "A": "Otáčení fotoaparátu proti směru hodinových ručiček",
+    "D": "Otáčení fotoaparátu ve směru hodinových ručiček",
+    "globalCommands": {
+      "J": "Přesunout se blíže k mapě",
+      "U": "Přesunout se od mapy výš"
+    },
+    "N": "Upravte mapu tak, aby směřovala na sever",
+    "P": "Posuňte kameru tak, aby se dívala kolmo na data zobrazená na mapě",
+    "S": "Naklonění fotoaparátu dolů",
+    "W": "Naklonění fotoaparátu nahoru"
+  },
+  "tools": {
+    "coverPage": "Titulní stránka",
+    "bookmarks": "Otevřít záložky",
+    "close": {
+      "bookmarks": "Zavřít záložky",
+      "cluster": "Procházet prvky",
+      "elevationProfile": "Zavřít výškový profil",
+      "filter": "Zavřít filtr",
+      "keyboard": "Zavřít klávesové zkratky",
+      "languageSwitcher": "Zavřít přepínač jazyků",
+      "layerList": "Zavřít seznam vrstev",
+      "legend": "Zavřít legendu",
+      "measureTools": "Zavřít nástroje měření",
+      "overviewMap": "Zavřít přehledovou mapu",
+      "print": "Zavřít tisk",
+      "screenshot": "Zavřít snímek obrazovky",
+      "search": "Zavřít vyhledávání",
+      "share": "Zavřít panel sdílení",
+      "splash": "Zavřít úvodní okno",
+      "table": "Zavřít tabulku",
+      "time": "Zavřít čas"
+    },
+    "elevationProfile": "Otevřít výškový profil",
+    "export": "Exportovat do formátu PDF",
+    "exportCSV": "Exportovat do CSV",
+    "filter": "Otevřít filtr",
+    "hideInfo": "Toto znovu nezobrazovat",
+    "hoverPopupTip": "Kliknutím mapu připnout",
+    "keyboard": "Otevřít klávesové zkratky",
+    "languageSwitcher": "Otevřít přepínač jazyků",
+    "layerList": "Otevřít seznam vrstev",
+    "legend": "Otevřít legendu",
+    "magnifier": {
+      "factor": "Faktor zvětšení",
+      "heading": "Lupa",
+      "label": "Otevřít lupu",
+      "size": "Velikost",
+      "summary": "Aktivovat lupu a nastavit možnosti"
+    },
+    "measure": {
+      "area": "Měřit plochu",
+      "label": "Otevřít měření",
+      "line": "Měřit linii",
+      "point": "Souřadnice"
+    },
+    "measureTools": "Otevřít nástroje pro měření",
+    "overviewMap": "Otevřít přehledovou mapu",
+    "print": "Otevřít tisk",
+    "screenshot": "Otevřít snímek obrazovky",
+    "search": "Otevřít vyhledávání",
+    "share": "Otevřít panel sdílení",
+    "splash": "Otevřít úvodní okno",
+    "table": "Otevřít tabulku",
+    "time": "Otevřít čas"
+  }
+}

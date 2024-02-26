@@ -1,0 +1,133 @@
+{
+  "analyticsOptIn": "Aanmelden",
+  "clear": "Annuleren",
+  "close": "Sluiten",
+  "collapse": "Inklappen",
+  "copyClipboard": "Kopiëren naar klembord",
+  "enter": "Invoeren",
+  "error": "Fout",
+  "expand": "Uitklappen",
+  "export": {
+    "results": "Resultaten",
+    "resultsAndMap": "Resultaten en kaart",
+    "tip": "Afdrukken of opslaan als pdf"
+  },
+  "generalShortcuts": {
+    "action": "Actie",
+    "label": "Sneltoetsen",
+    "menu": "Menu sneltoetsen",
+    "shortcut": "Sneltoets",
+    "title": "De kaart selecteren"
+  },
+  "validateAppAccessError": {
+    "message": "De toegang tot deze applicatie is geblokkeerd. Neem contact op met uw beheerder.",
+    "title": "Toegang is geblokkeerd"
+  },
+  "licenseError": {
+    "message": "Uw account heeft geen licentie om configureerbare apps te gebruiken die niet openbaar zijn. Vraag uw organisatiebeheerder om u een gebruikerstype toe te wijzen dat Essential Apps of een add-on Essential Apps-licentie bevat.",
+    "title": "Geen licentie"
+  },
+  "mapScroll": {
+    "disableMessage": "Door kaart scrollen uitschakelen",
+    "enableMessage": "Door kaart scrollen inschakelen"
+  },
+  "originError": {
+    "close": "Sluiten",
+    "linkMessage": "Ga door naar",
+    "message": "De applicatie die u probeert te openen, is niet afkomstig van de URL die u hebt ingevoerd",
+    "options": "Geavanceerde opties"
+  },
+  "screenshot": {
+    "backButton": "Teruggaan naar de kaart",
+    "deactivateScreenshot": "Screenshotmodus uitschakelen",
+    "downloadImage": "Afbeelding downloaden",
+    "enterTitle": "Voer een titel in",
+    "horizontal": "Horizontaal",
+    "legend": "Legenda",
+    "popup": "Pop-up",
+    "screenshotLayout": "Lay-out screenshot",
+    "screenshotSubtitle": "Selecteer aanvullende elementen om op te nemen in de kaart.",
+    "screenshotTitle": "Een afbeelding vastleggen",
+    "selectAFeature": "Selecteer een object op de kaart",
+    "setScreenshotArea": "Het kaartgebied instellen",
+    "takeAScreenshot": "Screenshot maken",
+    "vertical": "Verticaal",
+    "widgetLabel": "Screenshot"
+  },
+  "shortcutsMapView": {
+    "A": "Linksom draaien",
+    "arrowKeys": "Pijltjestoetsen",
+    "D": "Rechtsom draaien",
+    "minus": "Uitzoomen op het midden",
+    "N": "Zet richting het noorden",
+    "nudge": "Verplaats naar links, rechts, boven of beneden",
+    "plus": "Inzoomen op het midden"
+  },
+  "shortcutsSceneView": {
+    "A": "Draai de camera linksom",
+    "D": "Draai de camera rechtsom",
+    "globalCommands": {
+      "J": "Naar beneden verplaatsen dichter bij de kaart",
+      "U": "Naar boven verplaatsen verder van de kaart"
+    },
+    "N": "Zet de kaart richting het noorden",
+    "P": "Verplaats de camera zodat deze loodrecht staat ten opzichte van de gegevens die op de kaart worden weergegeven.",
+    "S": "Kantel de camera omlaag",
+    "W": "Kantel de camera omhoog"
+  },
+  "tools": {
+    "coverPage": "Voorblad",
+    "bookmarks": "Bladwijzers openen",
+    "close": {
+      "bookmarks": "Bladwijzers sluiten",
+      "cluster": "Objecten bekijken",
+      "elevationProfile": "Hoogteprofiel sluiten",
+      "filter": "Filter sluiten",
+      "keyboard": "Sneltoetsen sluiten",
+      "languageSwitcher": "Taalwisselaar sluiten",
+      "layerList": "Laaglijst sluiten",
+      "legend": "Legenda sluiten",
+      "measureTools": "Meettools sluiten",
+      "overviewMap": "Overzichtskaart sluiten",
+      "print": "Afdrukken sluiten",
+      "screenshot": "Screenshot sluiten",
+      "search": "Zoekbalk sluiten",
+      "share": "Deelpaneel sluiten",
+      "splash": "Introductievenster sluiten",
+      "table": "Tabel sluiten",
+      "time": "Tijd sluiten"
+    },
+    "elevationProfile": "Hoogteprofiel openen",
+    "export": "Exporteren als PDF",
+    "exportCSV": "Exporteren naar CSV",
+    "filter": "Filter openen",
+    "hideInfo": "Dit niet meer weergeven",
+    "hoverPopupTip": "Klik op kaart om vast te spelden",
+    "keyboard": "Sneltoetsen openen",
+    "languageSwitcher": "Taalwisselaar openen",
+    "layerList": "Laaglijst openen",
+    "legend": "Legenda openen",
+    "magnifier": {
+      "factor": "Factor",
+      "heading": "Vergrootglas",
+      "label": "Vergrootglas openen",
+      "size": "Grootte",
+      "summary": "Vergrootglas inschakelen en opties instellen"
+    },
+    "measure": {
+      "area": "Oppervlakte meten",
+      "label": "Meting openen",
+      "line": "Lijn meten",
+      "point": "Coördinaten"
+    },
+    "measureTools": "Meettools openen",
+    "overviewMap": "Overzichtskaart openen",
+    "print": "Afdruk openen",
+    "screenshot": "Screenshot openen",
+    "search": "Zoeken openen",
+    "share": "Deelpaneel openen",
+    "splash": "Introductievenster openen",
+    "table": "Tabel openen",
+    "time": "Tijd openen"
+  }
+}

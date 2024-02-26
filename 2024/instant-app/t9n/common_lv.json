@@ -1,0 +1,133 @@
+{
+  "analyticsOptIn": "Piekrist",
+  "clear": "Notīrīt",
+  "close": "Aizvērt",
+  "collapse": "Sakļaut",
+  "copyClipboard": "Kopēt starpliktuvē",
+  "enter": "Ievadīt",
+  "error": "Kļūda",
+  "expand": "Izvērst",
+  "export": {
+    "results": "Rezultāti",
+    "resultsAndMap": "Rezultāti un karte",
+    "tip": "Drukāt vai saglabāt kā PDF failu"
+  },
+  "generalShortcuts": {
+    "action": "Darbība",
+    "label": "Īsinājumtaustiņi",
+    "menu": "īsinājumikonu izvēlne",
+    "shortcut": "Īsinājumikona",
+    "title": "Atlasīt karti"
+  },
+  "validateAppAccessError": {
+    "message": "Piekļuve lietotnei ir bloķēta. Sazinieties ar administratoru.",
+    "title": "Piekļuve bloķēta"
+  },
+  "licenseError": {
+    "message": "Jūsu kontam nav licences, lai izmantotu konfigurējamās lietotnes, kas nav publiskas. Pieprasiet savas organizācijas administratoram piešķirt jums lietotāja veidu, kurā iekļauts lietotņu komplekts Essential Apps vai papildinājumlietotņu Essential Apps licence.",
+    "title": "Nav licences"
+  },
+  "mapScroll": {
+    "disableMessage": "Deaktivizēt kartes ritināšanu",
+    "enableMessage": "Aktivizēt kartes ritināšanu"
+  },
+  "originError": {
+    "close": "Aizvērt",
+    "linkMessage": "Turpināt ar",
+    "message": "Lietotnei nevar piekļūt no jūsu norādītā vietrāža URL",
+    "options": "Papildus opcijas"
+  },
+  "screenshot": {
+    "backButton": "Atgriezties kartē",
+    "deactivateScreenshot": "Izslēgt ekrānuzņēmuma režīmu",
+    "downloadImage": "Lejupielādēt attēlu",
+    "enterTitle": "Ievadiet virsrakstu",
+    "horizontal": "Horizontāls",
+    "legend": "Apzīmējumi",
+    "popup": "Uznirstošie logi",
+    "screenshotLayout": "Ekrānuzņēmuma izkārtojums",
+    "screenshotSubtitle": "Izvēlieties papildu elementus, kas jāiekļauj kartē.",
+    "screenshotTitle": "Tvert attēlu",
+    "selectAFeature": "Izvēlēties elementu kartē",
+    "setScreenshotArea": "Iestatīt kartes teritoriju",
+    "takeAScreenshot": "Uzņemt ekrānuzņēmumu",
+    "vertical": "Vertikāls",
+    "widgetLabel": "Ekrānuzņēmums"
+  },
+  "shortcutsMapView": {
+    "A": "Griezt pretēji pulksteņrādītāju kustības virzienam",
+    "arrowKeys": "Bulttaustiņi",
+    "D": "Griezt pulksteņrādītāju kustības virzienā",
+    "minus": "Tālināt no centra",
+    "N": "Pielāgot uz ziemeļiem",
+    "nudge": "Pavirzīt pa kreisi, pa labi, uz augšu vai uz leju",
+    "plus": "Tuvināt centrā"
+  },
+  "shortcutsSceneView": {
+    "A": "Griezt kameru pretēji pulksteņrādītāju kustības virzienam",
+    "D": "Griezt kameru pulksteņrādītāju kustības virzienā",
+    "globalCommands": {
+      "J": "Pārvietoties uz leju tuvāk kartei",
+      "U": "Pārvietoties augstāk no kartes"
+    },
+    "N": "Pielāgot karti ziemeļu punktam",
+    "P": "Pārvietojiet kameru, lai skatītos perpendikulāri kartē redzamajiem datiem",
+    "S": "Sasvērt kameru uz leju",
+    "W": "Sasvērt kameru uz augšu"
+  },
+  "tools": {
+    "coverPage": "Titullapa",
+    "bookmarks": "Atvērt grāmatzīmes",
+    "close": {
+      "bookmarks": "Aizvērt grāmatzīmes",
+      "cluster": "Pārlūkot elementus",
+      "elevationProfile": "Aizvērt augstuma profilu",
+      "filter": "Aizvērt filtru",
+      "keyboard": "Aizvērt īsinājumtaustiņus",
+      "languageSwitcher": "Aizvērt valodas pārslēdzēju",
+      "layerList": "Aizvērt slāņu sarakstu",
+      "legend": "Aizvērt apzīmējumus",
+      "measureTools": "Aizvērt mērīšanas rīkus",
+      "overviewMap": "Aizvērt pārskata karti",
+      "print": "Aizvērt printēšanu",
+      "screenshot": "Aizvērt ekrānuzņēmumu",
+      "search": "Aizvērt meklēšanu",
+      "share": "Aizvērt koplietošanas paneli",
+      "splash": "Aizvērt iepazīšanās logu",
+      "table": "Aizvērt tabulu",
+      "time": "Aizvērt laiku"
+    },
+    "elevationProfile": "Atvērt augstuma profilu",
+    "export": "Eksportēt uz PDF",
+    "exportCSV": "Eksportēt kā CSV failu",
+    "filter": "Atvērt filtru",
+    "hideInfo": "Nerādīt šo vēlreiz",
+    "hoverPopupTip": "Noklišķināt uz kartes, lai novietotu spraudīti",
+    "keyboard": "Atvērt īsinājumtaustiņus",
+    "languageSwitcher": "Atvērt valodas pārslēdzēju",
+    "layerList": "Atvērt slāņu sarakstu",
+    "legend": "Atvērt apzīmējumus",
+    "magnifier": {
+      "factor": "Koeficients",
+      "heading": "Lupa",
+      "label": "Atvērt lupu",
+      "size": "Izmērs",
+      "summary": "Iespējojiet lupu un iestatiet opcijas"
+    },
+    "measure": {
+      "area": "Mērīt laukumu",
+      "label": "Atvērt mērījumu",
+      "line": "Mērīt līniju",
+      "point": "Koordinātas"
+    },
+    "measureTools": "Atvērt mērīšanas rīkus",
+    "overviewMap": "Atvērt pārskata karti",
+    "print": "Atvērt drukāšanu",
+    "screenshot": "Atvērt ekrānuzņēmumu",
+    "search": "Atvērt meklēšanu",
+    "share": "Atvērt koplietošanas paneli",
+    "splash": "Atvērt iepazīšanās logu",
+    "table": "Atvērt tabulu",
+    "time": "Atvērt laiku"
+  }
+}

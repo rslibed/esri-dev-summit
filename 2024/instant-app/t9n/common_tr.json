@@ -1,0 +1,133 @@
+{
+  "analyticsOptIn": "Kaydol",
+  "clear": "Temizle",
+  "close": "Kapat",
+  "collapse": "Daralt",
+  "copyClipboard": "Panoya kopyala",
+  "enter": "Gir",
+  "error": "Hata",
+  "expand": "Genişlet",
+  "export": {
+    "results": "Sonuçlar",
+    "resultsAndMap": "Sonuçlar ve harita",
+    "tip": "PDF olarak yazdır veya kaydet"
+  },
+  "generalShortcuts": {
+    "action": "Eylem",
+    "label": "Klavye kısayolları",
+    "menu": "kısayollar menüsü",
+    "shortcut": "Kısayol",
+    "title": "Haritayı seç"
+  },
+  "validateAppAccessError": {
+    "message": "Bu uygulamaya erişim engellenmiştir. Lütfen yöneticiniz ile iletişime geçin.",
+    "title": "Erişim engelli"
+  },
+  "licenseError": {
+    "message": "Hesabınız herkese açık olmayan Yapılandırılabilir Uygulamaları kullanmak için lisanslandırılmamış. Lütfen kuruluş yöneticinizden Temel Uygulamalar veya eklenti Temel Uygulamalar lisansı içeren bir kullanıcı türü atamasını isteyin.",
+    "title": "Lisanslı Değil"
+  },
+  "mapScroll": {
+    "disableMessage": "Harita kaydırmayı devre dışı bırak",
+    "enableMessage": "Harita kaydırmayı etkinleştir"
+  },
+  "originError": {
+    "close": "Kapat",
+    "linkMessage": "'e devam edin",
+    "message": "Erişim sağlamaya çalıştığınız uygulama, sağladığınız URL'den kaynaklanmıyor",
+    "options": "Gelişmiş seçenekler"
+  },
+  "screenshot": {
+    "backButton": "Haritaya dön",
+    "deactivateScreenshot": "Ekran görüntüsü modunu devre dışı bırak",
+    "downloadImage": "Görüntüyü İndir",
+    "enterTitle": "Başlık girin",
+    "horizontal": "Yatay",
+    "legend": "Lejant",
+    "popup": "Açılır pencere",
+    "screenshotLayout": "Ekran görüntüsü çıktı düzeni",
+    "screenshotSubtitle": "Haritaya dahil edilecek ek ögeleri seçin.",
+    "screenshotTitle": "Bir görüntü yakala",
+    "selectAFeature": "Haritada bir detay seçin",
+    "setScreenshotArea": "Harita alanını ayarla",
+    "takeAScreenshot": "Ekran görüntüsü al",
+    "vertical": "Dikey",
+    "widgetLabel": "Ekran Görüntüsü"
+  },
+  "shortcutsMapView": {
+    "A": "Saat yönünün tersine döndür",
+    "arrowKeys": "Ok tuşları",
+    "D": "Saat yönünde döndür",
+    "minus": "Merkezde uzaklaştır",
+    "N": "Kuzey noktasına ayarla",
+    "nudge": "Sola, sağa, yukarı veya aşağı kaydır",
+    "plus": "Merkezde yakınlaştır"
+  },
+  "shortcutsSceneView": {
+    "A": "Kamerayı saatin ters yönünde döndür",
+    "D": "Kamerayı saat yönünde döndür",
+    "globalCommands": {
+      "J": "Alçalarak haritaya yaklaş",
+      "U": "Yükselerek haritadan uzaklaş"
+    },
+    "N": "Haritayı kuzey noktasına ayarla",
+    "P": "Haritada görüntülenen verilere dikey olarak bakmak için kamerayı hareket ettirin",
+    "S": "Kamerayı aşağı yatır",
+    "W": "Kamerayı yukarı yatır"
+  },
+  "tools": {
+    "coverPage": "Kapak sayfası",
+    "bookmarks": "Yer imlerini aç",
+    "close": {
+      "bookmarks": "Yer imlerini kapat",
+      "cluster": "Detaylara gözat",
+      "elevationProfile": "Yükselti profilini kapat",
+      "filter": "Filtreyi kapat",
+      "keyboard": "Klavye kısa yollarını kapat",
+      "languageSwitcher": "Dil değiştiriciyi kapat",
+      "layerList": "Katman listesini kapat",
+      "legend": "Lejantı kapat",
+      "measureTools": "Ölçüm araçlarını kapat",
+      "overviewMap": "Genel bakış haritasını kapat",
+      "print": "Yazdırmayı kapat",
+      "screenshot": "Ekran görüntüsünü kapat",
+      "search": "Aramayı kapat",
+      "share": "Paylaşım panelini kapat",
+      "splash": "Giriş penceresini kapat",
+      "table": "Tabloyu kapat",
+      "time": "Zamanı kapat"
+    },
+    "elevationProfile": "Yükselti profilini aç",
+    "export": "PDF'ye aktarın",
+    "exportCSV": "CSV olarak dışa aktar",
+    "filter": "Filtreyi aç",
+    "hideInfo": "Bunu yeniden gösterme",
+    "hoverPopupTip": "Sabitlemek için haritaya tıkla",
+    "keyboard": "Klavye kısayollarını aç",
+    "languageSwitcher": "Dil değiştiriciyi aç",
+    "layerList": "Katman listesini aç",
+    "legend": "Lejantı aç",
+    "magnifier": {
+      "factor": "Faktör",
+      "heading": "Büyüteç",
+      "label": "Büyüteci aç",
+      "size": "Boyut",
+      "summary": "Büyüteci etkinleştir ve seçenekleri ayarla"
+    },
+    "measure": {
+      "area": "Alanı ölç",
+      "label": "Ölçümü Aç",
+      "line": "Çizgiyi ölç",
+      "point": "Koordinatlar"
+    },
+    "measureTools": "Ölçüm araçlarını aç",
+    "overviewMap": "Genel bakış haritasını aç",
+    "print": "Yazdırmayı aç",
+    "screenshot": "Ekran görüntüsünü aç",
+    "search": "Aramayı aç",
+    "share": "Paylaşım panelini aç",
+    "splash": "Giriş penceresini aç",
+    "table": "Tabloyu aç",
+    "time": "Zamanı aç"
+  }
+}

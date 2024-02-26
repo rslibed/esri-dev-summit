@@ -1,0 +1,102 @@
+// Copyright 2024 Esri
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//   http://www.apache.org/licenses/LICENSE-2.0
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.​
+
+.App {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.esri-app {
+  height: 100%;
+
+  &__opt-out-button {
+    float: right;
+  }
+
+  html[dir="rtl"] &__opt-out-button {
+    float: left;
+  }
+}
+
+.sr-only {
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.esri-error-message {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+
+  p {
+    font-weight: 600;
+  }
+}
+
+.image {
+  margin: 0 !important;
+
+  img {
+    width: inherit;
+  }
+}
+
+:any-link {
+  color: var(--calcite-color-text-link);
+}
+
+a {
+  word-wrap: break-word;
+}
+
+.header {
+  display: flex;
+  background-color: var(--calcite-color-foreground-1);
+  border-block-end: var(--calcite-panel-header-border-block-end, 1px solid var(--calcite-color-border-3));
+}
+
+.heading-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  padding-inline: 0.75rem;
+  padding-block: 0.875rem;
+  margin-inline-end: auto;
+}
+
+.heading-text {
+  margin-inline: 0px;
+  font-size: var(--calcite-font-size-0);
+  line-height: 1.25rem;
+  font-weight: var(--calcite-font-weight-medium);
+}
+
+.mobile-panel {
+  transition: height 0.4s ease-out;
+  overflow: hidden;
+}
+
+.mobile-panel.collapse {
+  height: 56px;
+}

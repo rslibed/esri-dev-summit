@@ -1,0 +1,133 @@
+{
+  "analyticsOptIn": "Sutikti",
+  "clear": "Valyti",
+  "close": "Uždaryti",
+  "collapse": "Suskleisti",
+  "copyClipboard": "Kopijuoti į iškarpinę",
+  "enter": "Įeiti",
+  "error": "Klaida",
+  "expand": "Išskleisti",
+  "export": {
+    "results": "Rezultatai",
+    "resultsAndMap": "Rezultatai ir žemėlapis",
+    "tip": "Spausdinti arba įrašyti kaip PDF"
+  },
+  "generalShortcuts": {
+    "action": "Veiksmas",
+    "label": "Spartieji klavišai",
+    "menu": "sparčiųjų klavišų meniu",
+    "shortcut": "Spartieji klavišai",
+    "title": "Pasirinkti žemėlapį"
+  },
+  "validateAppAccessError": {
+    "message": "Prieiga prie šios programos užblokuota. Kreipkitės į savo administratorių.",
+    "title": "Prieiga užblokuota"
+  },
+  "licenseError": {
+    "message": "Jūsų paskyra nelicencijuota naudoti ne viešas konfigūruojamas aplikacijas. Kreipkitės į organizacijos administratorių, kad paskirtų jums naudotojo tipą, kuris turi svarbiausias aplikacijas arba suteiktų jums papildomą svarbiausių aplikacijų licenciją.",
+    "title": "Nelicencijuota"
+  },
+  "mapScroll": {
+    "disableMessage": "Išjungti žemėlapio slinkimą",
+    "enableMessage": "Įjungti žemėlapio slinkimą"
+  },
+  "originError": {
+    "close": "Uždaryti",
+    "linkMessage": "Tęsti pereinant į",
+    "message": "Aplikacija, kurią bandote pasiekti, nėra pasiekiama naudojant jūsų nurodytą URL",
+    "options": "Papildomi nustatymai"
+  },
+  "screenshot": {
+    "backButton": "Grįžti į žemėlapį",
+    "deactivateScreenshot": "Išjungti ekrano vaizdo režimą",
+    "downloadImage": "Atsisiųsti vaizdą",
+    "enterTitle": "Įveskite pavadinimą",
+    "horizontal": "Horizontalus",
+    "legend": "Legenda",
+    "popup": "Iškylantis langas",
+    "screenshotLayout": "Ekrano vaizdo maketas",
+    "screenshotSubtitle": "Pasirinkite papildomus elementus, kurie bus įtraukti į žemėlapį.",
+    "screenshotTitle": "Fiksuoti vaizdą",
+    "selectAFeature": "Pasirinkite elementą žemėlapyje",
+    "setScreenshotArea": "Nustatyti žemėlapio sritį",
+    "takeAScreenshot": "Užfiksuoti ekrano vaizdą",
+    "vertical": "Vertikalus",
+    "widgetLabel": "Ekrano vaizdas"
+  },
+  "shortcutsMapView": {
+    "A": "Pasukti prieš laikrodžio rodyklę",
+    "arrowKeys": "Rodyklių mygtukai",
+    "D": "Pasukti pagal laikrodžio rodyklę",
+    "minus": "Atitraukti nuo centro",
+    "N": "Pakoreguoti, kad būtų nukreipta į šiaurę",
+    "nudge": "Stumtelėti kairėn, dešnėn, aukštyn arba žemyn",
+    "plus": "Pritraukti prie centro"
+  },
+  "shortcutsSceneView": {
+    "A": "Pasukti fotoaparatą prieš laikrodžio rodyklę",
+    "D": "Pasukti fotoaparatą pagal laikrodžio rodyklę",
+    "globalCommands": {
+      "J": "Nuleisti žemyn, arčiau prie žemėlapio",
+      "U": "Pakelti aukštyn, aukščiau nuo žemėlapio"
+    },
+    "N": "Pakoreguoti žemėlapį, kad būtų nukreiptas į šiaurę",
+    "P": "Perkelkite fotoaparatą, kad jis būtų rodomas statmenai žemėlapyje rodomų duomenų atžvilgiu",
+    "S": "Pakreipti fotoaparatą į apačią",
+    "W": "Pakreipti fotoaparatą į viršų"
+  },
+  "tools": {
+    "coverPage": "Antraštinis puslapis",
+    "bookmarks": "Atidaryti žymes",
+    "close": {
+      "bookmarks": "Uždaryti žymes",
+      "cluster": "Naršyti elementus",
+      "elevationProfile": "Uždaryti aukščių profilį",
+      "filter": "Uždaryti filtrą",
+      "keyboard": "Uždaryti sparčiuosius klavišus",
+      "languageSwitcher": "Uždaryti kalbos perjungiklį",
+      "layerList": "Uždaryti sluoksnių sąrašą",
+      "legend": "Uždaryti legendą",
+      "measureTools": "Uždaryti matavimo įrankius",
+      "overviewMap": "Uždaryti žemėlapio apžvalgą",
+      "print": "Uždaryti spausdinimą",
+      "screenshot": "Uždaryti ekrano vaizdą",
+      "search": "Uždaryti paiešką",
+      "share": "Uždaryti bendrinimo skydelį",
+      "splash": "Uždaryti įvadinį langą",
+      "table": "Uždaryti lentelę",
+      "time": "Uždaryti laiką"
+    },
+    "elevationProfile": "Atidaryti aukščių profilį",
+    "export": "Eksportuoti į PDF",
+    "exportCSV": "Eksportuoti į CSV",
+    "filter": "Atidaryti filtrą",
+    "hideInfo": "Daugiau neberodyti",
+    "hoverPopupTip": "Norėdami padėti smeigtuką, spustelėkite žemėlapyje",
+    "keyboard": "Atidaryti sparčiuosius klavišus",
+    "languageSwitcher": "Atidaryti kalbos perjungiklį",
+    "layerList": "Atidaryti sluoksnių sąrašą",
+    "legend": "Atidaryti legendą",
+    "magnifier": {
+      "factor": "Veiksnys",
+      "heading": "Didintuvas",
+      "label": "Atidaryti didintuvą",
+      "size": "Dydis",
+      "summary": "Įjungti didintuvą ir nustatyti parinktis"
+    },
+    "measure": {
+      "area": "Matuoti plotą",
+      "label": "Atidaryti matavimus",
+      "line": "Matuoti liniją",
+      "point": "Koordinatės"
+    },
+    "measureTools": "Atidaryti matavimo įrankius",
+    "overviewMap": "Atidaryti žemėlapio apžvalgą",
+    "print": "Atidaryti spausdinimą",
+    "screenshot": "Atidaryti ekrano vaizdą",
+    "search": "Atidaryti paiešką",
+    "share": "Atidaryti bendrinimo skydelį",
+    "splash": "Atidaryti įvadinį langą",
+    "table": "Atidaryti lentelę",
+    "time": "Atidaryti laiką"
+  }
+}

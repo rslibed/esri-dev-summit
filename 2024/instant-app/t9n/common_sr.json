@@ -1,0 +1,133 @@
+{
+  "analyticsOptIn": "Prijavi se",
+  "clear": "Obriši",
+  "close": "Zatvori",
+  "collapse": "Skupi",
+  "copyClipboard": "Kopiraj u ostavu",
+  "enter": "Ulaz",
+  "error": "Greška",
+  "expand": "Proširi",
+  "export": {
+    "results": "Rezultati",
+    "resultsAndMap": "Rezultati i mapa",
+    "tip": "Odštampaj ili sačuvaj kao PDF"
+  },
+  "generalShortcuts": {
+    "action": "Akcija",
+    "label": "Prečice na tastaturi",
+    "menu": "meni prečica",
+    "shortcut": "Prečica",
+    "title": "Izaberi mapu"
+  },
+  "validateAppAccessError": {
+    "message": "Pristup ovoj aplikaciji je blokiran. Kontaktirajte administratora.",
+    "title": "Pristup blokiran"
+  },
+  "licenseError": {
+    "message": "Vaš nalog nema licencu za korišćenje aplikacija koje mogu da se konfigurišu i nisu javne. Zatražite od administratora organizacije da vam dodeli onaj tip korisnika koji uključuje osnovne aplikacije ili licencu za dodatne osnovne aplikacije.",
+    "title": "Nema licencu"
+  },
+  "mapScroll": {
+    "disableMessage": "Onemogući listanje mape",
+    "enableMessage": "Omogući listanje mape"
+  },
+  "originError": {
+    "close": "Zatvori",
+    "linkMessage": "Nastavi do",
+    "message": "Aplikacija kojoj pokušavate da pristupite ne potiče sa URL adrese koju ste naveli",
+    "options": "Napredne opcije"
+  },
+  "screenshot": {
+    "backButton": "Vrati se na mapu",
+    "deactivateScreenshot": "Deaktiviraj režim snimka ekrana",
+    "downloadImage": "Preuzmi snimak",
+    "enterTitle": "Unesite naslov",
+    "horizontal": "Horizontalno",
+    "legend": "Legenda",
+    "popup": "Iskačući prozor",
+    "screenshotLayout": "Raspored snimka ekrana",
+    "screenshotSubtitle": "Izaberite dodatne elemente koje želite da budu na mapi.",
+    "screenshotTitle": "Snimi snimak",
+    "selectAFeature": "Izaberite geoobjekat na mapi",
+    "setScreenshotArea": "Podesi oblast mape",
+    "takeAScreenshot": "Napravite sliku ekrana",
+    "vertical": "Vertikalno",
+    "widgetLabel": "Snimak ekrana"
+  },
+  "shortcutsMapView": {
+    "A": "Rotiraj suprotno od smera kretanja kazaljki na satu",
+    "arrowKeys": "Tasteri strelice",
+    "D": "Rotiraj u smeru kretanja kazaljki na satu",
+    "minus": "Smanjenje zumiranja u sredini",
+    "N": "Podesi prema tački sever",
+    "nudge": "Pomeri na levo, desno, gore ili dole",
+    "plus": "Zumiranje u sredini"
+  },
+  "shortcutsSceneView": {
+    "A": "Rotiranje kamere suprotno kretanju kazaljke na satu",
+    "D": "Rotiranje kamere u smeru kretanja kazaljke na satu",
+    "globalCommands": {
+      "J": "Pomeri na dole bliže mapi",
+      "U": "Pomeri na gore dalje od mape"
+    },
+    "N": "Podešavanje mape u pravcu severa",
+    "P": "Pomerite kameru da gleda okomito na podatke koji su prikazani na mapi.",
+    "S": "Naginjanje kamere dole",
+    "W": "Naginjanje kamere gore"
+  },
+  "tools": {
+    "coverPage": "Naslovna stranica",
+    "bookmarks": "Otvori obeleživače",
+    "close": {
+      "bookmarks": "Zatvori obeleživače",
+      "cluster": "Pregled funkcija",
+      "elevationProfile": "Zatvori profil elevacije",
+      "filter": "Zatvori filter",
+      "keyboard": "Zatvori prečice na tastaturi",
+      "languageSwitcher": "Zatvorite promenu jezika",
+      "layerList": "Zatvori listu slojeva",
+      "legend": "Zatvori legendu",
+      "measureTools": "Zatvori alatke za merenje",
+      "overviewMap": "Zatvori preglednu mapu",
+      "print": "Zatvori štampanje",
+      "screenshot": "Zatvori snimak ekrana",
+      "search": "Zatvori pretragu",
+      "share": "Zatvori podeljeni panel",
+      "splash": "Zatvorite prozor sa instrukcijama",
+      "table": "Zatvori tabelu",
+      "time": "Zatvori vreme"
+    },
+    "elevationProfile": "Otvori profil elevacije",
+    "export": "Izvezi u PDF",
+    "exportCSV": "Izvezi u CSV",
+    "filter": "Otvori filter",
+    "hideInfo": "Ne prikazuj ovo ponovo",
+    "hoverPopupTip": "Kliknite na mapu za kačenje",
+    "keyboard": "Otvori prečice na tastaturi",
+    "languageSwitcher": "Otvorite promenu jezika",
+    "layerList": "Otvori listu slojeva",
+    "legend": "Otvori legendu",
+    "magnifier": {
+      "factor": "Faktor",
+      "heading": "Lupa",
+      "label": "Otvori lupu",
+      "size": "Veličina",
+      "summary": "Omogućite lupu i podesite opcije"
+    },
+    "measure": {
+      "area": "Izmeri površinu",
+      "label": "Otvori merenje",
+      "line": "Izmeri liniju",
+      "point": "Koordinate"
+    },
+    "measureTools": "Otvori alatke za merenje",
+    "overviewMap": "Otvori preglednu mapu",
+    "print": "Otvori štampanje",
+    "screenshot": "Otvori snimak ekrana",
+    "search": "Otvori pretragu",
+    "share": "Otvori podeljeni panel",
+    "splash": "Otvorite uvodni prozor",
+    "table": "Otvori tabelu",
+    "time": "Otvori vreme"
+  }
+}

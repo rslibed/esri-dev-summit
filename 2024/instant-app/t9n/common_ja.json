@@ -1,0 +1,133 @@
+{
+  "analyticsOptIn": "オプト イン",
+  "clear": "解除",
+  "close": "閉じる",
+  "collapse": "折りたたむ",
+  "copyClipboard": "クリップボードにコピー",
+  "enter": "入力",
+  "error": "エラー",
+  "expand": "展開",
+  "export": {
+    "results": "結果",
+    "resultsAndMap": "結果とマップ",
+    "tip": "PDF として印刷または保存"
+  },
+  "generalShortcuts": {
+    "action": "操作",
+    "label": "キーボード ショートカット",
+    "menu": "ショートカット メニュー",
+    "shortcut": "ショートカット",
+    "title": "マップの選択"
+  },
+  "validateAppAccessError": {
+    "message": "このアプリケーションへのアクセスはブロックされました。 管理者にお問い合わせください。",
+    "title": "アクセスはブロックされました"
+  },
+  "licenseError": {
+    "message": "パブリックでないテンプレートを使用するためのライセンスがアカウントに付与されていません。 組織の管理者に Essential Apps またはアドオン Essential Apps ライセンスを含むユーザー タイプを割り当てるよう依頼してください。",
+    "title": "ライセンスがありません。"
+  },
+  "mapScroll": {
+    "disableMessage": "マップのスクロールの無効化",
+    "enableMessage": "マップのスクロールの有効化"
+  },
+  "originError": {
+    "close": "閉じる",
+    "linkMessage": "進む",
+    "message": "アクセスしようとしているアプリケーションは、指定した URL からのものではありません。",
+    "options": "高度なオプション"
+  },
+  "screenshot": {
+    "backButton": "マップに戻る",
+    "deactivateScreenshot": "スクリーンショット モードの無効化",
+    "downloadImage": "画像のダウンロード",
+    "enterTitle": "タイトルの入力",
+    "horizontal": "水平",
+    "legend": "凡例",
+    "popup": "ポップアップ",
+    "screenshotLayout": "スクリーンショットのレイアウト",
+    "screenshotSubtitle": "マップに含める追加エレメントを選択します。",
+    "screenshotTitle": "画像の取得",
+    "selectAFeature": "マップ上のフィーチャを選択",
+    "setScreenshotArea": "マップ エリアの設定",
+    "takeAScreenshot": "スクリーンショットの撮影",
+    "vertical": "鉛直",
+    "widgetLabel": "スクリーンショット"
+  },
+  "shortcutsMapView": {
+    "A": "反時計回りに回転",
+    "arrowKeys": "矢印キー",
+    "D": "時計回りに回転",
+    "minus": "中心からズーム アウト",
+    "N": "北を指すよう調整",
+    "nudge": "上下左右に微調整",
+    "plus": "中心にズーム イン"
+  },
+  "shortcutsSceneView": {
+    "A": "カメラを反時計回りに回転",
+    "D": "カメラを時計回りに回転",
+    "globalCommands": {
+      "J": "マップに向かって下に移動",
+      "U": "マップから上に移動"
+    },
+    "N": "マップが北を指すよう調整",
+    "P": "マップに表示されているデータに対して垂直になるようにカメラを移動します",
+    "S": "カメラを下に傾ける",
+    "W": "カメラを上に傾ける"
+  },
+  "tools": {
+    "coverPage": "カバー ページ",
+    "bookmarks": "ブックマークを開く",
+    "close": {
+      "bookmarks": "ブックマークを閉じる",
+      "cluster": "フィーチャの参照",
+      "elevationProfile": "標高断面を閉じる",
+      "filter": "フィルターを終了",
+      "keyboard": "キーボード ショートカットを閉じる",
+      "languageSwitcher": "言語の切り替えを閉じる",
+      "layerList": "レイヤー リストを閉じる",
+      "legend": "凡例を閉じる",
+      "measureTools": "計測ツールを閉じる",
+      "overviewMap": "概観図を閉じる",
+      "print": "印刷を閉じる",
+      "screenshot": "スクリーンショットを閉じる",
+      "search": "検索を閉じる",
+      "share": "共有パネルを閉じる",
+      "splash": "概要ウィンドウを閉じる",
+      "table": "テーブルを閉じる",
+      "time": "時間を閉じる"
+    },
+    "elevationProfile": "標高断面を開く",
+    "export": "PDF にエクスポート",
+    "exportCSV": "CSV にエクスポート",
+    "filter": "フィルターを開く",
+    "hideInfo": "今後表示しない",
+    "hoverPopupTip": "マップをクリックしてピンを置く",
+    "keyboard": "キーボード ショートカットを開く",
+    "languageSwitcher": "言語の切り替えを開く",
+    "layerList": "レイヤー リストを開く",
+    "legend": "凡例を開く",
+    "magnifier": {
+      "factor": "倍率",
+      "heading": "拡大鏡",
+      "label": "拡大鏡を開く",
+      "size": "サイズ",
+      "summary": "拡大鏡を有効にし、オプションを設定します"
+    },
+    "measure": {
+      "area": "エリアの計測",
+      "label": "計測を開く",
+      "line": "ラインの計測",
+      "point": "座標"
+    },
+    "measureTools": "計測ツールを開く",
+    "overviewMap": "概観図を開く",
+    "print": "印刷を開く",
+    "screenshot": "スクリーンショットを開く",
+    "search": "検索を開く",
+    "share": "共有パネルを開く",
+    "splash": "概要ウィンドウを開く",
+    "table": "テーブルを開く",
+    "time": "時間を開く"
+  }
+}

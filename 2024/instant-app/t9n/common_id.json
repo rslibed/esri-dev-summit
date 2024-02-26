@@ -1,0 +1,133 @@
+{
+  "analyticsOptIn": "Ikut Serta",
+  "clear": "Hapus",
+  "close": "Tutup",
+  "collapse": "Tutup",
+  "copyClipboard": "Salin ke Clipboard",
+  "enter": "Enter",
+  "error": "Kesalahan",
+  "expand": "Bentang",
+  "export": {
+    "results": "Hasil",
+    "resultsAndMap": "Hasil dan peta",
+    "tip": "Cetak atau simpan sebagai PDF"
+  },
+  "generalShortcuts": {
+    "action": "Tindakan",
+    "label": "Pintasan keyboard",
+    "menu": "menu pintasan",
+    "shortcut": "Pintasan",
+    "title": "Pilih peta"
+  },
+  "validateAppAccessError": {
+    "message": "Akses ke aplikasi ini telah diblokir. Harap hubungi administrator Anda.",
+    "title": "Akses diblokir"
+  },
+  "licenseError": {
+    "message": "Akun Anda tidak dilisensikan untuk menggunakan Aplikasi yang Dapat Dikonfigurasi yang bukan bersifat publik. Harap minta administrator organisasi Anda untuk menetapkan Anda jenis pengguna yang menyertakan lisensi Essential App atau add-on Essential App.",
+    "title": "Tidak Dilisensikan"
+  },
+  "mapScroll": {
+    "disableMessage": "Nonaktifkan gulir peta",
+    "enableMessage": "Aktifkan gulir peta"
+  },
+  "originError": {
+    "close": "Tutup",
+    "linkMessage": "Lanjut ke",
+    "message": "Aplikasi yang hendak Anda akses tidak berasal dari URL yang Anda berikan",
+    "options": "Opsi lanjutan"
+  },
+  "screenshot": {
+    "backButton": "Kembali ke peta",
+    "deactivateScreenshot": "Nonaktifkan mode tangkapan layar",
+    "downloadImage": "Unduh Citra",
+    "enterTitle": "Masukkan judul",
+    "horizontal": "Horisontal",
+    "legend": "Legenda",
+    "popup": "Pop-up",
+    "screenshotLayout": "Tata letak tangkapan layar",
+    "screenshotSubtitle": "Pilih elemen tambahan untuk diikutsertakan di peta.",
+    "screenshotTitle": "Ambil gambar",
+    "selectAFeature": "Pilih fitur pada peta.",
+    "setScreenshotArea": "Atur area peta",
+    "takeAScreenshot": "Buat tangkapan layar",
+    "vertical": "Vertikal",
+    "widgetLabel": "Tangkapan Layar"
+  },
+  "shortcutsMapView": {
+    "A": "Putar berlawanan arah jarum jam",
+    "arrowKeys": "Tombol panah",
+    "D": "Putar searah jarum jam",
+    "minus": "Perkecil di pusat",
+    "N": "Sesuaikan untuk menunjuk arah utara",
+    "nudge": "Geser ke kiri, kanan, atas, atau bawah",
+    "plus": "Perbesar di pusat"
+  },
+  "shortcutsSceneView": {
+    "A": "Putar kamera berlawanan arah jarum jam",
+    "D": "Putar kamera searah jarum jam",
+    "globalCommands": {
+      "J": "Geser lebih dekat ke peta",
+      "U": "Geser lebih tinggi dari peta"
+    },
+    "N": "Sesuaikan peta untuk menunjuk arah utara",
+    "P": "Gerakkan kamera agar terlihat tegak lurus dengan data yang ditampilkan di peta",
+    "S": "Miringkan kamera ke bawah",
+    "W": "Miringkan kamera ke atas"
+  },
+  "tools": {
+    "coverPage": "Halaman sampul",
+    "bookmarks": "Buka penanda lokasi",
+    "close": {
+      "bookmarks": "Tutup penanda lokasi",
+      "cluster": "Telusuri fitur",
+      "elevationProfile": "Tutup profil elevasi",
+      "filter": "Tutup filter",
+      "keyboard": "Tutup pintasan keyboard",
+      "languageSwitcher": "Tutup pengalih bahasa",
+      "layerList": "Tutup daftar layer",
+      "legend": "Tutup legenda",
+      "measureTools": "Tutup alat pengukuran",
+      "overviewMap": "Tutup peta ikhtisar",
+      "print": "Tutup cetakan",
+      "screenshot": "Tutup tangkapan layar",
+      "search": "Tutup pencarian",
+      "share": "Tutup panel berbagi",
+      "splash": "Tutup jendela pengantar",
+      "table": "Tutup tabel",
+      "time": "Tutup waktu"
+    },
+    "elevationProfile": "Buka profil elevasi",
+    "export": "Ekspor ke PDF",
+    "exportCSV": "Ekspor ke CSV",
+    "filter": "Buka filter",
+    "hideInfo": "Jangan tampilkan lagi",
+    "hoverPopupTip": "Klik peta untuk memasang pin",
+    "keyboard": "Buka pintasan keyboard",
+    "languageSwitcher": "Buka pengalih bahasa",
+    "layerList": "Buka daftar layer",
+    "legend": "Buka legenda",
+    "magnifier": {
+      "factor": "Faktor",
+      "heading": "Kaca pembesar",
+      "label": "Buka Kaca Pembesar",
+      "size": "Ukuran",
+      "summary": "Aktifkan kaca pembesar dan atur opsi"
+    },
+    "measure": {
+      "area": "Ukur area",
+      "label": "Buka Pengukuran",
+      "line": "Ukur garis",
+      "point": "Koordinat"
+    },
+    "measureTools": "Buka alat ukur",
+    "overviewMap": "Buka peta ikhtisar",
+    "print": "Buka cetakan",
+    "screenshot": "Buka tangkapan layar",
+    "search": "Buka pencarian",
+    "share": "Buka panel berbagi",
+    "splash": "Buka jendela pengantar",
+    "table": "Buka tabel",
+    "time": "Buka waktu"
+  }
+}

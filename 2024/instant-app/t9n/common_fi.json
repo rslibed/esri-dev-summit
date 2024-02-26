@@ -1,0 +1,133 @@
+{
+  "analyticsOptIn": "Valitse",
+  "clear": "Tyhjennä",
+  "close": "Tallennettu",
+  "collapse": "Kutista",
+  "copyClipboard": "Kopioi leikepöydälle",
+  "enter": "Kirjoita",
+  "error": "Virhe",
+  "expand": "Laajenna",
+  "export": {
+    "results": "Tulokset",
+    "resultsAndMap": "Tulokset ja kartta",
+    "tip": "Tulosta tai tallenna PDF-tiedostona"
+  },
+  "generalShortcuts": {
+    "action": "Toiminto",
+    "label": "Pikanäppäimet",
+    "menu": "pikavalikko",
+    "shortcut": "Pikavalinta",
+    "title": "Valitse kartta"
+  },
+  "validateAppAccessError": {
+    "message": "Pääsy tähän sovellukseen on estetty. Ota yhteyttä pääkäyttäjään.",
+    "title": "Pääsy estetty"
+  },
+  "licenseError": {
+    "message": "Tiliäsi ei ole lisensoitu käyttämään muunneltavissa olevia sovelluksia, jotka eivät ole julkisia. Pyydä organisaatiosi pääkäyttäjää määrittämään sinulle käyttäjätyyppi, joka sisältää keskeiset sovellukset tai keskeisten sovellusten lisäosan lisenssin.",
+    "title": "Ei lisenssiä"
+  },
+  "mapScroll": {
+    "disableMessage": "Poista kartan vieritys käytöstä",
+    "enableMessage": "Ota kartan vieritys käyttöön"
+  },
+  "originError": {
+    "close": "Tallennettu",
+    "linkMessage": "Jatka kohteeseen",
+    "message": "Sovellus, jota yrität käyttää, ei ole peräisin määrittämästäsi URL-osoitteesta",
+    "options": "Lisäasetukset"
+  },
+  "screenshot": {
+    "backButton": "Palaa karttaan",
+    "deactivateScreenshot": "Poista näyttökuvatilan aktivointi",
+    "downloadImage": "Lataa kuva",
+    "enterTitle": "Anna otsikko",
+    "horizontal": "Vaaka",
+    "legend": "Selite",
+    "popup": "Ponnahdusikkuna",
+    "screenshotLayout": "Näyttökuva-asettelu",
+    "screenshotSubtitle": "Valitse muut kartan mukana tallennettavat elementit.",
+    "screenshotTitle": "Sieppaa kuva",
+    "selectAFeature": "Valitse kartan kohde",
+    "setScreenshotArea": "Määritä kartta-alue",
+    "takeAScreenshot": "Ota näyttökuva",
+    "vertical": "Pysty",
+    "widgetLabel": "Näyttökuva"
+  },
+  "shortcutsMapView": {
+    "A": "Kierrä vastapäivään",
+    "arrowKeys": "Nuolinäppäimet",
+    "D": "Kierrä myötäpäivään",
+    "minus": "Loitonna keskikohdasta",
+    "N": "Säädä osoittamaan pohjoiseen",
+    "nudge": "Säädä vasemmalle, oikealle, ylös tai alas",
+    "plus": "Tarkenna keskikohtaan"
+  },
+  "shortcutsSceneView": {
+    "A": "Kierrä kameraa vastapäivään",
+    "D": "Kierrä kameraa myötäpäivään",
+    "globalCommands": {
+      "J": "Siirrä alaspäin lähemmäs karttaa",
+      "U": "Siirrä ylöspäin etäämmälle kartasta"
+    },
+    "N": "Säädä kartta osoittamaan pohjoiseen",
+    "P": "Siirrä kameraa siten, että se on kohtisuorassa kartassa näytettävään aineistoon nähden",
+    "S": "Kallista kameraa alaspäin",
+    "W": "Kallista kameraa ylöspäin"
+  },
+  "tools": {
+    "coverPage": "Kansisivu",
+    "bookmarks": "Avaa kirjanmerkit",
+    "close": {
+      "bookmarks": "Sulje kirjanmerkit",
+      "cluster": "Selaa kohteita",
+      "elevationProfile": "Sulje korkeusprofiili",
+      "filter": "Sulje suodatin",
+      "keyboard": "Sulje pikanäppäimet",
+      "languageSwitcher": "Sulje kielen vaihtaja",
+      "layerList": "Sulje karttatasoluettelo",
+      "legend": "Sulje selite",
+      "measureTools": "Sulje mittaustyökalut",
+      "overviewMap": "Sulje yleiskatsauskartta",
+      "print": "Sulje tulostus",
+      "screenshot": "Sulje näyttökuva",
+      "search": "Sulje haku",
+      "share": "Sulje jakamispaneeli",
+      "splash": "Sulje johdantoikkuna",
+      "table": "Sulje taulu",
+      "time": "Sulje aika"
+    },
+    "elevationProfile": "Avaa korkeusprofiili",
+    "export": "Vie PDF-muotoon",
+    "exportCSV": "Vie CSV-tiedostoon",
+    "filter": "Avaa suodatin",
+    "hideInfo": "Älä näytä tätä uudelleen",
+    "hoverPopupTip": "Kiinnitä napsauttamalla karttaa",
+    "keyboard": "Avaa pikanäppäimet",
+    "languageSwitcher": "Avaa kielen vaihtaja",
+    "layerList": "Avaa karttatasoluettelo",
+    "legend": "Avaa selite",
+    "magnifier": {
+      "factor": "Kerroin",
+      "heading": "Suurennuslasi",
+      "label": "Avaa suurennuslasi",
+      "size": "Koko",
+      "summary": "Ota käyttöön suurennuslasi ja määritä asetukset"
+    },
+    "measure": {
+      "area": "Mittaa alue",
+      "label": "Avaa mittaus",
+      "line": "Mittaa viiva",
+      "point": "Koordinaatit"
+    },
+    "measureTools": "Avaa mittaustyökalut",
+    "overviewMap": "Avaa yleiskatsauskartta",
+    "print": "Avaa tulostus",
+    "screenshot": "Avaa näyttökuva",
+    "search": "Avaa haku",
+    "share": "Avaa jakamispaneeli",
+    "splash": "Avaa johdantoikkuna",
+    "table": "Avaa taulukko",
+    "time": "Avaa aika"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "analyticsOptIn": "Acconsentire esplicitamente",
+  "clear": "Cancellare",
+  "close": "Chiudi",
+  "collapse": "Comprimi",
+  "copyClipboard": "Copia negli appunti",
+  "enter": "Immettere",
+  "error": "Errore",
+  "expand": "Espandi",
+  "export": {
+    "results": "Risultati",
+    "resultsAndMap": "Risultati e mappa",
+    "tip": "Stampa o salva come PDF"
+  },
+  "generalShortcuts": {
+    "action": "Azione",
+    "label": "Tasti di scelta rapida",
+    "menu": "menu scorciatoie",
+    "shortcut": "Scorciatoia",
+    "title": "Seleziona la mappa"
+  },
+  "validateAppAccessError": {
+    "message": "L'accesso a questa applicazione è stato bloccato. Contattare l'amministratore.",
+    "title": "Accesso bloccato"
+  },
+  "licenseError": {
+    "message": "L’account non dispone della licenza per l’uso di app configurabili non pubbliche. È necessario richiedere all’amministratore dell'organizzazione l’assegnazione di un tipo di utente che includa le app essenziali o una licenza aggiuntiva per le app essenziali.",
+    "title": "Non Licenziato"
+  },
+  "mapScroll": {
+    "disableMessage": "Disabilita lo scorrimento della mappa",
+    "enableMessage": "Abilita lo scorrimento della mappa"
+  },
+  "originError": {
+    "close": "Chiudi",
+    "linkMessage": "Procedere a",
+    "message": "L'applicazione a cui si sta tentando di accedere non ha origine dall'URL fornito",
+    "options": "Opzioni avanzate"
+  },
+  "screenshot": {
+    "backButton": "Torna alla mappa",
+    "deactivateScreenshot": "Disattiva modalità schermata",
+    "downloadImage": "Scarica immagine",
+    "enterTitle": "Inserisci titolo",
+    "horizontal": "Orizzontale",
+    "legend": "Legenda",
+    "popup": "Popup",
+    "screenshotLayout": "Layout schermata",
+    "screenshotSubtitle": "Selezionare altri elementi da includere con la mappa.",
+    "screenshotTitle": "Acquisisci immagine",
+    "selectAFeature": "Seleziona una feature sulla mappa",
+    "setScreenshotArea": "Imposta area mappa",
+    "takeAScreenshot": "Cattura una schermata",
+    "vertical": "Verticale",
+    "widgetLabel": "Schermata"
+  },
+  "shortcutsMapView": {
+    "A": "Ruotare in senso antiorario",
+    "arrowKeys": "Tasti freccia",
+    "D": "Ruotare in senso orario",
+    "minus": "Zoom indietro al centro",
+    "N": "Regolare per puntare a nord",
+    "nudge": "Spingi a sinistra, a destra, in alto o in basso",
+    "plus": "Zoom avanti al centro"
+  },
+  "shortcutsSceneView": {
+    "A": "Ruota la telecamera in senso antiorario",
+    "D": "Ruota la telecamera in senso orario",
+    "globalCommands": {
+      "J": "Avvicinati alla mappa",
+      "U": "Sali più in alto nella mappa"
+    },
+    "N": "Regola la mappa per puntare a nord",
+    "P": "Sposta la fotocamera per guardare perpendicolarmente ai dati visualizzati nella mappa",
+    "S": "Inclina la telecamera verso il basso",
+    "W": "Inclina la telecamera verso l'alto"
+  },
+  "tools": {
+    "coverPage": "Pagina di copertina",
+    "bookmarks": "Apri segnalibri",
+    "close": {
+      "bookmarks": "Chiudi segnalibri",
+      "cluster": "Browse feature",
+      "elevationProfile": "Chiudi profilo di elevazione",
+      "filter": "Chiudi filtro",
+      "keyboard": "Chiudi tasti di scelta rapida",
+      "languageSwitcher": "Chiudi selettore lingua",
+      "layerList": "Chiudi elenco layer",
+      "legend": "Chiudi legenda",
+      "measureTools": "Chiudi strumenti di misurazione",
+      "overviewMap": "Chiudi mappa d'insieme",
+      "print": "Chiudi stampa",
+      "screenshot": "Chiudi screenshot",
+      "search": "Chiudi ricerca",
+      "share": "Chiudi riquadro condivisione",
+      "splash": "Chiudi finestra di introduzione",
+      "table": "Chiudi tabella",
+      "time": "Chiudi ora"
+    },
+    "elevationProfile": "Apri profilo di elevazione",
+    "export": "Esporta in PDF",
+    "exportCSV": "Esporta in CSV",
+    "filter": "Apri filtro",
+    "hideInfo": "Non visualizzare più questa finestra di dialogo",
+    "hoverPopupTip": "Clicca sulla mappa per fissare",
+    "keyboard": "Apri tasti di scelta rapida",
+    "languageSwitcher": "Apri selettore lingua",
+    "layerList": "Apri elenco layer",
+    "legend": "Apri legenda",
+    "magnifier": {
+      "factor": "Fattore",
+      "heading": "Ingradimento",
+      "label": "Apri la lente di ingrandimento",
+      "size": "Dimensione",
+      "summary": "Abilita le lente di ingrandimento e imposta le opzioni"
+    },
+    "measure": {
+      "area": "Misura area",
+      "label": "Apri misurazione",
+      "line": "Misura linea",
+      "point": "Coordinate"
+    },
+    "measureTools": "Apri strumenti di misura",
+    "overviewMap": "Apri mappa d'insieme",
+    "print": "Apri stampa",
+    "screenshot": "Apri screenshot",
+    "search": "Apri ricerca",
+    "share": "Chiudi pannello di condivisione",
+    "splash": "Apri finestra di introduzione",
+    "table": "Apri tabella",
+    "time": "Apri ora"
+  }
+}

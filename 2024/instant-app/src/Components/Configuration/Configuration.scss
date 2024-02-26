@@ -1,0 +1,14 @@
+.instant-apps__configuration {
+  padding: 20px;
+  width: 250px;
+
+  h2 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  calcite-label:last-child {
+    --calcite-label-margin-bottom: 0;
+  }
+}

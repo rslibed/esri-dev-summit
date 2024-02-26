@@ -1,0 +1,133 @@
+{
+  "analyticsOptIn": "Opt in",
+  "clear": "Clear",
+  "close": "Close",
+  "collapse": "Collapse",
+  "copyClipboard": "Copy to clipboard",
+  "enter": "Enter",
+  "error": "Error",
+  "expand": "Expand",
+  "export": {
+    "results": "Results",
+    "resultsAndMap": "Results and map",
+    "tip": "Print or save as PDF"
+  },
+  "generalShortcuts": {
+    "action": "Action",
+    "label": "Keyboard shortcuts",
+    "menu": "shortcuts menu",
+    "shortcut": "Shortcut",
+    "title": "Select the map"
+  },
+  "validateAppAccessError": {
+    "message": "Access to this application has been blocked. Please contact your administrator.",
+    "title": "Access blocked"
+  },
+  "licenseError": {
+    "message": "Your account is not licensed to use Configurable Apps that are not public. Please ask your organization administrator to assign you a user type that includes Essential Apps or an add-on Essential Apps license.",
+    "title": "Not Licensed"
+  },
+  "mapScroll": {
+    "disableMessage": "Disable map scroll",
+    "enableMessage": "Enable map scroll"
+  },
+  "originError": {
+    "close": "Close",
+    "linkMessage": "Proceed to",
+    "message": "The application you are trying to access does not originate from the URL you provided",
+    "options": "Advanced options"
+  },
+  "screenshot": {
+    "backButton": "Return to the map",
+    "deactivateScreenshot": "Deactivate screenshot mode",
+    "downloadImage": "Download Image",
+    "enterTitle": "Enter title",
+    "horizontal": "Horizontal",
+    "legend": "Legend",
+    "popup": "Pop-up",
+    "screenshotLayout": "Screenshot layout",
+    "screenshotSubtitle": "Select additional elements to include with the map.",
+    "screenshotTitle": "Capture an image",
+    "selectAFeature": "Select a feature on the map",
+    "setScreenshotArea": "Set the map area",
+    "takeAScreenshot": "Take a screenshot",
+    "vertical": "Vertical",
+    "widgetLabel": "Screenshot"
+  },
+  "shortcutsMapView": {
+    "A": "Rotate counterclockwise",
+    "arrowKeys": "Arrow keys",
+    "D": "Rotate clockwise",
+    "minus": "Zoom out at the center",
+    "N": "Adjust to point north",
+    "nudge": "Nudge to left, right, up, or down",
+    "plus": "Zoom in at the center"
+  },
+  "shortcutsSceneView": {
+    "A": "Rotate camera counterclockwise",
+    "D": "Rotate camera clockwise",
+    "globalCommands": {
+      "J": "Move down closer to the map",
+      "U": "Move up higher from the map"
+    },
+    "N": "Adjust the map to point north",
+    "P": "Move the camera to look perpendicular to the data displayed in the map",
+    "S": "Tilt camera down",
+    "W": "Tilt camera up"
+  },
+  "tools": {
+    "coverPage": "Cover page",
+    "bookmarks": "Open bookmarks",
+    "close": {
+      "bookmarks": "Close bookmarks",
+      "cluster": "Browse features",
+      "elevationProfile": "Close elevation profile",
+      "filter": "Close filter",
+      "keyboard": "Close keyboard shortcuts",
+      "languageSwitcher": "Close language switcher",
+      "layerList": "Close layer list",
+      "legend": "Close legend",
+      "measureTools": "Close measure tools",
+      "overviewMap": "Close overview map",
+      "print": "Close print",
+      "screenshot": "Close screenshot",
+      "search": "Close search",
+      "share": "Close share panel",
+      "splash": "Close introduction window",
+      "table": "Close table",
+      "time": "Close time"
+    },
+    "elevationProfile": "Open elevation profile",
+    "export": "Export to PDF",
+    "exportCSV": "Export to CSV",
+    "filter": "Open filter",
+    "hideInfo": "Don't show this again",
+    "hoverPopupTip": "Click on map to pin",
+    "keyboard": "Open keyboard shortcuts",
+    "languageSwitcher": "Open language switcher",
+    "layerList": "Open layer list",
+    "legend": "Open legend",
+    "magnifier": {
+      "factor": "Factor",
+      "heading": "Magnifier",
+      "label": "Open Magnifier",
+      "size": "Size",
+      "summary": "Enable magnifier and set options"
+    },
+    "measure": {
+      "area": "Measure area",
+      "label": "Open Measurement",
+      "line": "Measure line",
+      "point": "Coordinates"
+    },
+    "measureTools": "Open measure tools",
+    "overviewMap": "Open overview map",
+    "print": "Open print",
+    "screenshot": "Open screenshot",
+    "search": "Open search",
+    "share": "Open share panel",
+    "splash": "Open introduction window",
+    "table": "Open table",
+    "time": "Open time"
+  }
+}

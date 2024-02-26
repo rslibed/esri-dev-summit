@@ -1,0 +1,133 @@
+{
+  "analyticsOptIn": "选择同意",
+  "clear": "清除",
+  "close": "关闭",
+  "collapse": "折叠",
+  "copyClipboard": "复制到剪贴板",
+  "enter": "Enter",
+  "error": "错误",
+  "expand": "展开",
+  "export": {
+    "results": "结果",
+    "resultsAndMap": "结果和地图",
+    "tip": "打印或另存为 PDF"
+  },
+  "generalShortcuts": {
+    "action": "操作",
+    "label": "键盘快捷键",
+    "menu": "快捷方式菜单",
+    "shortcut": "快捷方式",
+    "title": "选择地图"
+  },
+  "validateAppAccessError": {
+    "message": "已阻止访问此应用程序。 请联系您的管理员。",
+    "title": "访问已阻止"
+  },
+  "licenseError": {
+    "message": "您的帐户无权使用非公共的可配置应用程序。 请联系您的组织管理员为您分配包含基本应用程序或附加基本应用程序许可的用户类型。",
+    "title": "未经许可"
+  },
+  "mapScroll": {
+    "disableMessage": "禁用地图滚动",
+    "enableMessage": "启用地图滚动"
+  },
+  "originError": {
+    "close": "关闭",
+    "linkMessage": "继续",
+    "message": "您正在尝试访问的应用程序并非源自您已提供的 URL",
+    "options": "高级选项"
+  },
+  "screenshot": {
+    "backButton": "返回至地图",
+    "deactivateScreenshot": "禁用屏幕截图模式",
+    "downloadImage": "下载影像",
+    "enterTitle": "输入标题",
+    "horizontal": "水平对齐",
+    "legend": "图例",
+    "popup": "弹出窗口",
+    "screenshotLayout": "屏幕截图布局",
+    "screenshotSubtitle": "选择要包含在地图中的其他元素。",
+    "screenshotTitle": "捕获图像",
+    "selectAFeature": "选择地图上的要素",
+    "setScreenshotArea": "设置地图区域",
+    "takeAScreenshot": "截取屏幕截图",
+    "vertical": "垂直对齐",
+    "widgetLabel": "屏幕截图"
+  },
+  "shortcutsMapView": {
+    "A": "逆时针旋转",
+    "arrowKeys": "方向键",
+    "D": "顺时针旋转",
+    "minus": "在中心位置缩小",
+    "N": "调整以指向北方",
+    "nudge": "向左、向右、向上或向下微移",
+    "plus": "在中心位置放大"
+  },
+  "shortcutsSceneView": {
+    "A": "逆时针旋转照相机",
+    "D": "顺时针旋转照相机",
+    "globalCommands": {
+      "J": "沿靠近地图的方向下移",
+      "U": "沿远离地图的方向上移"
+    },
+    "N": "调整地图以指向北方",
+    "P": "移动照相机，使其垂直于地图中显示的数据",
+    "S": "向下倾斜照相机",
+    "W": "向上倾斜照相机"
+  },
+  "tools": {
+    "coverPage": "封面",
+    "bookmarks": "打开书签",
+    "close": {
+      "bookmarks": "关闭书签",
+      "cluster": "浏览要素",
+      "elevationProfile": "关闭高程剖面图",
+      "filter": "关闭过滤器",
+      "keyboard": "关闭键盘快捷键",
+      "languageSwitcher": "关闭语言切换器",
+      "layerList": "关闭图层列表",
+      "legend": "关闭图例",
+      "measureTools": "关闭测量工具",
+      "overviewMap": "关闭总览图",
+      "print": "关闭打印",
+      "screenshot": "关闭屏幕截图",
+      "search": "关闭搜索",
+      "share": "关闭共享面板",
+      "splash": "关闭简介窗口",
+      "table": "关闭表格",
+      "time": "关闭时间"
+    },
+    "elevationProfile": "打开高程剖面图",
+    "export": "导出至 PDF",
+    "exportCSV": "导出到 CSV",
+    "filter": "打开过滤器",
+    "hideInfo": "不再显示此内容",
+    "hoverPopupTip": "单击地图以放置图钉",
+    "keyboard": "打开键盘快捷键",
+    "languageSwitcher": "打开语言切换器",
+    "layerList": "打开图层列表",
+    "legend": "打开图例",
+    "magnifier": {
+      "factor": "因子",
+      "heading": "放大镜",
+      "label": "打开放大镜",
+      "size": "大小",
+      "summary": "启用放大镜并设置选项"
+    },
+    "measure": {
+      "area": "测量面积",
+      "label": "打开测量",
+      "line": "测量线",
+      "point": "坐标"
+    },
+    "measureTools": "打开测量工具",
+    "overviewMap": "打开总览图",
+    "print": "打开打印",
+    "screenshot": "打开屏幕截图",
+    "search": "打开搜索",
+    "share": "打开共享面板",
+    "splash": "打开简介窗口",
+    "table": "打开表",
+    "time": "打开时间"
+  }
+}
