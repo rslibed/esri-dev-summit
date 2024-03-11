@@ -1,42 +1,83 @@
+import { FC, ReactElement, useEffect, useState } from "react";
+
 import { useDispatch, useSelector } from "react-redux";
-import "./Configuration.scss";
 
 import {
   CalciteLabel,
   CalcitePopover,
   CalciteSwitch,
 } from "@esri/calcite-components-react";
+
 import {
   configParamsSelector,
   updateConfigParam,
 } from "src/redux/slices/configParamsSlice";
-import { handleLocalStorage } from "src/utils/localStorage";
 
-export const Configuration = (props: {
-  actionEl: HTMLCalciteActionElement;
-}) => {
+import { handleLocalStorage } from "src/utils/localStorage";
+import { ConfigurationProps, Setting } from "./interfaces";
+import { settingData } from "./data";
+
+import "./Configuration.scss";
+
+export const Configuration: FC<ConfigurationProps> = ({
+  actionEl,
+}): ReactElement => {
   const dispatch = useDispatch();
-  const { home, mapZoom, scalebar, bookmarks, interactiveLegend, share } =
-    useSelector(configParamsSelector);
+  const configParams = useSelector(configParamsSelector);
+  const [uiData, setUIData] = useState<Setting[]>([]);
+
+  useEffect(() => {
+    const fieldNames = [
+      "home",
+      "mapZoom",
+      "scalebar",
+      "bookmarks",
+      "share",
+      "interactiveLegend",
+    ];
+
+    const DATA = fieldNames.map((fieldName) => {
+      const label = settingData[fieldName].label;
+      const value = configParams[fieldName];
+      return { fieldName, label, value };
+    });
+    setUIData(DATA);
+  }, [configParams]);
 
   const handleSwitchChangeCallback = (key: string, value: boolean) => {
     return (e: CustomEvent) => {
       const switchEl = e.target as HTMLCalciteSwitchElement;
       switchEl.checked = !value;
+      const { checked } = switchEl;
       dispatch(
         updateConfigParam({
           key,
-          value: switchEl.checked,
+          value: checked,
         })
       );
-      handleLocalStorage(key, switchEl.checked);
+      handleLocalStorage(key, checked);
     };
+  };
+
+  const renderSetting = ({ fieldName, label, value }: Setting) => {
+    const key = `${fieldName}-key`;
+    const layout = "inline-space-between";
+    const checked = value ? true : undefined;
+    return (
+      <CalciteLabel key={key} layout={layout}>
+        {label}
+        <CalciteSwitch
+          onCalciteSwitchChange={handleSwitchChangeCallback(fieldName, value)}
+          checked={checked}
+        />
+      </CalciteLabel>
+    );
   };
 
   return (
     <CalcitePopover
       label="Configuration"
-      referenceElement={props.actionEl}
+      referenceElement={actionEl}
       autoClose={true}
       placement="bottom-end"
     >
@@ -44,60 +85,7 @@ export const Configuration = (props: {
         <header>
           <h2>Configure App</h2>
         </header>
-        <CalciteLabel key="home" layout="inline-space-between">
-          Home
-          <CalciteSwitch
-            onCalciteSwitchChange={handleSwitchChangeCallback("home", home)}
-            checked={home ? true : undefined}
-          />
-        </CalciteLabel>
-        <CalciteLabel key="zoom" layout="inline-space-between">
-          Zoom
-          <CalciteSwitch
-            onCalciteSwitchChange={handleSwitchChangeCallback(
-              "mapZoom",
-              mapZoom
-            )}
-            checked={mapZoom ? true : undefined}
-          />
-        </CalciteLabel>
-        <CalciteLabel key="scalebar" layout="inline-space-between">
-          Scalebar
-          <CalciteSwitch
-            onCalciteSwitchChange={handleSwitchChangeCallback(
-              "scalebar",
-              scalebar
-            )}
-            checked={scalebar ? true : undefined}
-          />
-        </CalciteLabel>
-        <CalciteLabel key="bookmarks" layout="inline-space-between">
-          Bookmarks
-          <CalciteSwitch
-            onCalciteSwitchChange={handleSwitchChangeCallback(
-              "bookmarks",
-              bookmarks
-            )}
-            checked={bookmarks ? true : undefined}
-          />
-        </CalciteLabel>
-        <CalciteLabel key="share" layout="inline-space-between">
-          Share
-          <CalciteSwitch
-            onCalciteSwitchChange={handleSwitchChangeCallback("share", share)}
-            checked={share ? true : undefined}
-          />
-        </CalciteLabel>
-        <CalciteLabel key="interactiveLegend" layout="inline-space-between">
-          Interactive legend
-          <CalciteSwitch
-            onCalciteSwitchChange={handleSwitchChangeCallback(
-              "interactiveLegend",
-              interactiveLegend
-            )}
-            checked={interactiveLegend ? true : undefined}
-          />
-        </CalciteLabel>
+        {uiData.map((dataItem) => renderSetting(dataItem))}
       </div>
     </CalcitePopover>
   );

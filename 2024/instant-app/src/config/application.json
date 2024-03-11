@@ -15,6 +15,7 @@
     "locateWidget": false,
     "scalebar": true,
     "share": true,
+    "sharePosition": "top-right",
     "interactiveLegend": true,
     "interactiveLegendPanel": "panel-start",
     "theme": "light",

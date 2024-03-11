@@ -9,7 +9,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import { FC, ReactElement, useRef } from "react";
+import { FC, ReactElement, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 import {
@@ -26,7 +26,8 @@ import { Configuration } from "../Configuration/Configuration";
 import { handleLocalStorage } from "src/utils/localStorage";
 
 const Header: FC = (): ReactElement => {
-  const configurationRef = useRef<HTMLCalciteActionElement>(null);
+  const [configurationRef, setConfigurationRef] =
+    useState<HTMLCalciteActionElement | null>(null);
   const { theme, title } = useSelector(configParamsSelector);
   const portalItem = useSelector(portalItemSelector);
 
@@ -55,7 +56,7 @@ const Header: FC = (): ReactElement => {
           </CalciteTooltip>
         </CalciteAction>
         <CalciteAction
-          ref={configurationRef}
+          ref={setConfigurationRef}
           slot="actions-end"
           icon="gear"
           text=""
@@ -65,9 +66,7 @@ const Header: FC = (): ReactElement => {
           </CalciteTooltip>
         </CalciteAction>
       </InstantAppsHeader>
-      <Configuration
-        actionEl={configurationRef?.current as HTMLCalciteActionElement}
-      />
+      <Configuration actionEl={configurationRef} />
     </>
   );
 };
