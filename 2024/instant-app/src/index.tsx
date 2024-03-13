@@ -49,15 +49,16 @@ import "./index.scss";
 
 import "./utils/require";
 
+const { BASE_URL } = import.meta.env;
+
 (async function init(): Promise<void> {
-  // Set up assets path
-  const { BASE_URL } = import.meta.env;
-  const path = `${BASE_URL}assets/assets`;
+  // Set up assets path (required due to multiple StencilJS libraries)
+  const path = getAssetsPath();
   const { href } = window.location;
   const url = new URL(path, href).href;
   setAssetPath(url);
 
-  // Bundle loader to load apps in different languages
+  // registerMessageBundleLoader: Load apps in different languages
   registerMessageBundleLoader(
     createJSONLoader({
       pattern: BASE_URL,
@@ -66,8 +67,14 @@ import "./utils/require";
     })
   );
 
+  // ApplicationBase: A class designed to handle common tasks of ArcGIS Instant Apps.
+  // Portal information
+  // User information
+  // Item data (webscenes, webmaps, group information, group items)
+  // Configured application information
+  // URL parameters
+  // The ApplicationBase will handle fetching this information, store it, and perform setup when necessary.
   const base = await createApplicationBase().load(EAppTemplateType.Reporter);
-
   // Saved data from local storage
   base.config = {
     ...base.config,
@@ -77,11 +84,8 @@ import "./utils/require";
   const config = { ...base.config } as ConfigState;
 
   // Create map for initial state
-  const queryString = window.location.search;
-  const urlParams = new URLSearchParams(queryString);
-  const urlMapId = urlParams.has("webmap") ? urlParams.get("webmap") : null;
   const appProxies = base.results?.applicationItem?.value?.applicationProxies;
-  const item = await getPortalItem(urlMapId, base, config);
+  const item = await getPortalItem(base, config);
   const map = (await createMapFromItem({ item, appProxies })) as __esri.WebMap;
 
   // App title
@@ -129,24 +133,20 @@ function createApplicationBase(): ApplicationBase {
 }
 
 async function getPortalItem(
-  urlMapId: string | null,
   base: ApplicationBase,
   config: ConfigState
 ): Promise<PortalItem> {
-  if (urlMapId != null) {
+  const { webMapItems } = base.results;
+  if (webMapItems != null) {
+    return webMapItems[0]?.value;
+  } else {
     return (await new PortalItem({
       portal: base.portal,
-      id: urlMapId,
+      id: config.webmap,
     }).load()) as PortalItem;
-  } else {
-    const { webMapItems } = base.results;
-    if (webMapItems != null) {
-      return webMapItems[0]?.value;
-    } else {
-      return (await new PortalItem({
-        portal: base.portal,
-        id: config.webmap,
-      }).load()) as PortalItem;
-    }
   }
+}
+
+function getAssetsPath() {
+  return `${BASE_URL}assets/assets`;
 }

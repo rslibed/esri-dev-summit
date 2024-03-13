@@ -19,9 +19,7 @@ import { settingData } from "./data";
 
 import "./Configuration.scss";
 
-export const Configuration: FC<ConfigurationProps> = ({
-  actionEl,
-}): ReactElement => {
+const Configuration: FC<ConfigurationProps> = ({ actionEl }): ReactElement => {
   const dispatch = useDispatch();
   const configParams = useSelector(configParamsSelector);
   const [uiData, setUIData] = useState<Setting[]>([]);
@@ -101,3 +99,5 @@ export const Configuration: FC<ConfigurationProps> = ({
     </CalcitePopover>
   );
 };
+
+export default Configuration;

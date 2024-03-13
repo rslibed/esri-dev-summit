@@ -21,7 +21,6 @@ import { ViewProps } from "./interfaces";
 import CommonT9n from "../../../t9n/common.json";
 
 import "./View.scss";
-import { whenOnce } from "@arcgis/core/core/reactiveUtils";
 
 const CSS = {
   base: "esri-view",
@@ -103,13 +102,7 @@ const View: FC<ViewProps> = ({ view }): ReactElement => {
   }, [scalebar, scalebarPosition, view, commonMessages, portal]);
 
   useEffect(() => {
-    if (!view.ready) {
-      whenOnce(() => view?.ready).then(() =>
-        handleTheme(theme, mapDiv?.current as HTMLDivElement)
-      );
-    } else {
-      handleTheme(theme, mapDiv?.current as HTMLDivElement);
-    }
+    if (!view.ready) handleTheme(theme, mapDiv?.current as HTMLDivElement);
   }, [theme, view?.ready]);
 
   return <div className={CSS.base} ref={mapDiv} />;
