@@ -6,14 +6,18 @@ enum ETheme {
   Light = "light",
   Dark = "dark",
   LightIcon = "brightness",
-  DarkIcon = "moon"
+  DarkIcon = "moon",
 }
 
 export function handleTheme(theme: Theme, mapDiv: HTMLDivElement) {
-  const prevThemeClass = isDark(theme) ? ETheme.CalciteModeLight : ETheme.CalciteModeDark;
+  const prevThemeClass = isDark(theme)
+    ? ETheme.CalciteModeLight
+    : ETheme.CalciteModeDark;
   const uiContainers = mapDiv?.querySelectorAll(`.${prevThemeClass}`);
   if (uiContainers != null) {
-    const themeClass = isDark(theme) ? ETheme.CalciteModeDark : ETheme.CalciteModeLight;
+    const themeClass = isDark(theme)
+      ? ETheme.CalciteModeDark
+      : ETheme.CalciteModeLight;
     for (let i = 0; i < uiContainers.length; i++) {
       uiContainers[i].classList.replace(prevThemeClass, themeClass);
     }

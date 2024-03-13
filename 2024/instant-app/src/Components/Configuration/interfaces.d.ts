@@ -5,4 +5,5 @@ export interface ConfigurationProps {
 export interface Setting {
   fieldName: string;
   label: string;
+  value: boolean;
 }

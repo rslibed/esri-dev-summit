@@ -1,6 +1,10 @@
 import { FC, ReactElement, useEffect, useState } from "react";
 
 import { useDispatch, useSelector } from "react-redux";
+import {
+  configParamsSelector,
+  updateConfigParam,
+} from "src/redux/slices/configParamsSlice";
 
 import {
   CalciteLabel,
@@ -8,12 +12,8 @@ import {
   CalciteSwitch,
 } from "@esri/calcite-components-react";
 
-import {
-  configParamsSelector,
-  updateConfigParam,
-} from "src/redux/slices/configParamsSlice";
-
 import { handleLocalStorage } from "src/utils/localStorage";
+
 import { ConfigurationProps, Setting } from "./interfaces";
 import { settingData } from "./data";
 
@@ -43,6 +43,12 @@ export const Configuration: FC<ConfigurationProps> = ({
     });
     setUIData(DATA);
   }, [configParams]);
+
+  const renderHeader = () => (
+    <header>
+      <h2>Configure App</h2>
+    </header>
+  );
 
   const handleSwitchChangeCallback = (key: string, value: boolean) => {
     return (e: CustomEvent) => {
@@ -74,6 +80,16 @@ export const Configuration: FC<ConfigurationProps> = ({
     );
   };
 
+  const renderSettings = () =>
+    uiData.map((dataItem) => renderSetting(dataItem));
+
+  const renderContent = () => (
+    <div className="instant-apps__configuration">
+      {renderHeader()}
+      {renderSettings()}
+    </div>
+  );
+
   return (
     <CalcitePopover
       label="Configuration"
@@ -81,12 +97,7 @@ export const Configuration: FC<ConfigurationProps> = ({
       autoClose={true}
       placement="bottom-end"
     >
-      <div className="instant-apps__configuration">
-        <header>
-          <h2>Configure App</h2>
-        </header>
-        {uiData.map((dataItem) => renderSetting(dataItem))}
-      </div>
+      {renderContent()}
     </CalcitePopover>
   );
 };

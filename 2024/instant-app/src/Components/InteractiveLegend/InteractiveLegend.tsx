@@ -1,13 +1,15 @@
-import "@esri/instant-apps-components/dist/components/instant-apps-interactive-legend";
 import { InstantAppsInteractiveLegend } from "@esri/instant-apps-components-react";
+import { getCalciteMode } from "src/utils/theme";
 
-export const InteractiveLegend = ({ view, theme }) => {
+const InteractiveLegend = ({ view, theme }) => {
   return (
     <InstantAppsInteractiveLegend
-      className={theme === "dark" ? "calcite-mode-dark" : "calcite-mode-light"}
+      className={getCalciteMode(theme)}
       view={view?.current}
-      feature-count={true}
-      zoom-to={true}
+      featureCount={true}
+      zoomTo={true}
     />
   );
 };
+
+export default InteractiveLegend;
