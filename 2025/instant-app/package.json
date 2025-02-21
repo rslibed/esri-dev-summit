@@ -1,0 +1,46 @@
+{
+  "name": "react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": ".",
+  "dependencies": {
+    "@arcgis/core": "^4.32.0",
+    "@arcgis/instant-apps-components": "^4.32.0",
+    "@arcgis/map-components": "^4.32.0",
+    "@esri/calcite-components": "^3.0.3",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "templates-common-library-esm": "npm:templates-common-library@0.0.620-esm"
+  },
+  "scripts": {
+    "start": "npm run mkdirT9nAssets && npm run copy && vite",
+    "build": "npm run mkdirT9nAssets && npm run copy && vite build",
+    "preview": "npm run mkdirT9nAssets && npm run copy && vite preview",
+    "copy": "npm run copyCCAssets && npm run copyIACAssets && npm run copyT9n",
+    "copyCCAssets": "ncp ./node_modules/@esri/calcite-components/dist/calcite/assets public/assets",
+    "copyIACAssets": "ncp ./node_modules/@arcgis/instant-apps-components/dist/assets public/assets",
+    "copyT9n": "ncp src/t9n public/assets/t9n",
+    "mkdirT9nAssets": "mkdirp public/assets && mkdirp public/assets/t9n && ncp ./src/t9n ./public/assets/t9n",
+    "bundle:report": "source-map-explorer build/**/*.js",
+    "serve": "vite preview",
+    "deploy": "npm run build",
+    "check:prettier": "prettier --check 'src'",
+    "fix:prettier": "prettier --write 'src'"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.11",
+    "@types/react": "19.0.2",
+    "@types/react-dom": "19.0.2",
+    "@vitejs/plugin-react-swc": "^3.7.2",
+    "mkdirp": "^3.0.1",
+    "ncp": "^2.0.0",
+    "sass": "^1.77.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-tsconfig-paths": "^4.3.2"
+  }
+}
