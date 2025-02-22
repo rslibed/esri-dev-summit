@@ -1,0 +1,32 @@
+{
+  "appid": "",
+  "portalUrl": "https://arcgis.com",
+  "oauthappid": "arcgisinstantapps",
+  "title": "ArcGIS Instant Apps: Build Using TypeScript and ArcGIS Maps SDK for JavaScript",
+  "webmap": "default",
+  "googleAnalytics": false,
+  "googleAnalyticsKey": null,
+  "googleAnalyticsConsent": false,
+  "googleAnalyticsConsentMsg": null,
+  "proxyUrl": "",
+  "units": "",
+  "localDefaultValues": {
+    "splash": true
+  },
+  "helperServices": {
+    "geometry": {
+      "url": null
+    },
+    "printTask": {
+      "url": null
+    },
+    "elevationSync": {
+      "url": null
+    },
+    "geocode": [
+      {
+        "url": null
+      }
+    ]
+  }
+}

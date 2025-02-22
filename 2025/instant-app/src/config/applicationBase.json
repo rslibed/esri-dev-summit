@@ -1,0 +1,24 @@
+{
+  "localStorage": {
+    "fetch": true
+  },
+  "portal": {
+    "fetch": true
+  },
+  "urlParams": [
+    "appid",
+    "center",
+    "extent",
+    "find",
+    "locale",
+    "portalUrl",
+    "portalUrl",
+    "env",
+    "selectedFeature",
+    "webmap"
+  ],
+  "webMap": {
+    "default": "bdd8a0c6fa9442dd9b8ba290ef1c7778",
+    "fetch": true
+  }
+}
