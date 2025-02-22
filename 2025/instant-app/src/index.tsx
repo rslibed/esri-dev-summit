@@ -3,7 +3,10 @@ import ApplicationBaseProvider from "./Context/Providers/ApplicationBaseProvider
 import ConfigurationSettingsProvider from "./Context/Providers/ConfigurationSettingsProvider";
 import "./index.scss";
 import "./utils/componentImports";
-import { createJSONLoader, registerMessageBundleLoader } from "@arcgis/core/intl";
+import {
+  createJSONLoader,
+  registerMessageBundleLoader,
+} from "@arcgis/core/intl";
 import PortalItem from "@arcgis/core/portal/PortalItem";
 import "@esri/calcite-components";
 import { setAssetPath } from "@esri/calcite-components";
@@ -24,13 +27,15 @@ import { createMapFromItem } from "templates-common-library-esm/baseClasses/supp
 (async function () {
   initAssets();
 
-  const base = (await createApplicationBase().load(EAppTemplateType.Basic)) as ApplicationBase;
+  const base = (await createApplicationBase().load(
+    EAppTemplateType.Basic
+  )) as ApplicationBase;
 
   registerMessageBundleLoader(
     createJSONLoader({
       pattern: `${import.meta.env.BASE_URL}`,
       base: `${import.meta.env.BASE_URL}`,
-      location: new URL(`${import.meta.env.BASE_URL}`, window.location.href)
+      location: new URL(`${import.meta.env.BASE_URL}`, window.location.href),
     })
   );
 
@@ -47,7 +52,7 @@ import { createMapFromItem } from "templates-common-library-esm/baseClasses/supp
   if (mapId) {
     const portalItem = new PortalItem({
       portal: base.portal,
-      id: mapId
+      id: mapId,
     });
     const loadedPortalItem = await portalItem.load();
     item = loadedPortalItem;
@@ -66,10 +71,10 @@ import { createMapFromItem } from "templates-common-library-esm/baseClasses/supp
     const title = config?.title
       ? config.title
       : appItemTitle
-        ? appItemTitle
-        : item?.title
-          ? item.title
-          : "Instant Apps: React Starter";
+      ? appItemTitle
+      : item?.title
+      ? item.title
+      : "ArcGIS Instant Apps: Build Using TypeScript and ArcGIS Maps SDK for JavaScript";
 
     setPageTitle(title);
 
@@ -95,12 +100,15 @@ function createApplicationBase(): ApplicationBase {
   const settings = applicationBaseJSON;
   return new ApplicationBase({
     config,
-    settings
+    settings,
   });
 }
 
 function initAssets() {
-  const assetsPath = new URL(`${import.meta.env.BASE_URL}assets`, window.location.href).href;
+  const assetsPath = new URL(
+    `${import.meta.env.BASE_URL}assets`,
+    window.location.href
+  ).href;
   setAssetPath(assetsPath);
   setAssetPathForInstantAppsComponents(assetsPath);
 }
