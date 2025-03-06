@@ -26,6 +26,9 @@ export interface ConfigState {
   languageSwitcherPosition: ComponentPosition;
   languageSwitcherConfig: any;
   theme: "light" | "dark";
+  bookmarks: boolean;
+  bookmarksPosition: ComponentPosition;
+  customTheme?;
 }
 
 export interface IConfigurationSettingsContext extends ConfigState {

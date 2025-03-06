@@ -1,6 +1,5 @@
 @use "src/App.scss";
 @use "@esri/calcite-components/dist/calcite/calcite.css";
-@import "@arcgis/core/assets/esri/themes/light/main.css";
 
 html,
 body,
@@ -10,6 +9,7 @@ arcgis-map,
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 #root {

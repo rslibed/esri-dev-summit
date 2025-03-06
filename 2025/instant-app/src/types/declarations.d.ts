@@ -1,4 +1,4 @@
-// Copyright 2025 Esri
+// Copyright 2024 Esri
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
@@ -28,6 +28,7 @@ declare module "react" {
 
       // Calcite Components
       "calcite-action": JSX.HTMLAttributes<HTMLCalciteActionElement>;
+      "calcite-action-pad": JSX.HTMLAttributes<HTMLCalciteActionPadElement>;
       "calcite-action-bar": JSX.HTMLAttributes<HTMLCalciteActionBarElement>;
       "calcite-action-group": JSX.HTMLAttributes<HTMLCalciteActionGroupElement>;
       "calcite-block": JSX.HTMLAttributes<HTMLCalciteBlockElement>;
@@ -45,7 +46,9 @@ declare module "react" {
       "calcite-panel": JSX.HTMLAttributes<HTMLCalcitePanelElement>;
       "calcite-popover": JSX.HTMLAttributes<HTMLCalcitePopoverElement>;
       "calcite-shell": JSX.HTMLAttributes<HTMLCalciteShellElement>;
+      "calcite-shell-panel": JSX.HTMLAttributes<HTMLCalciteShellPanelElement>;
       "calcite-switch": JSX.HTMLAttributes<HTMLCalciteSwitchElement>;
+      "calcite-tooltip": JSX.HTMLAttributes<HTMLCalciteTooltipElement>;
 
       // Instant Apps Components
       "instant-apps-export-views": JSX.HTMLAttributes<HTMLInstantAppsExportViewsElement>;
@@ -55,6 +58,8 @@ declare module "react" {
       "instant-apps-language-switcher": JSX.HTMLAttributes<HTMLInstantAppsLanguageSwitcherElement>;
       "instant-apps-social-share": JSX.HTMLAttributes<HTMLInstantAppsSocialShareElement>;
       "instant-apps-splash": JSX.HTMLAttributes<HTMLInstantAppsSplashElement>;
+      "instant-apps-interactive-legend": JSX.HTMLAttributes<HTMLInstantAppsInteractiveLegendElement>;
+      "instant-apps-export": JSX.HTMLAttributes<HTMLInstantAppsExportElement>;
     }
   }
 }

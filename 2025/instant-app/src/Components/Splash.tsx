@@ -1,8 +1,7 @@
 import { useConfigurationSettings } from "src/Context/Contexts";
 
 export default function Splash() {
-  const { splashTitle, splashContent, splashButtonText } =
-    useConfigurationSettings();
+  const { splashTitle, splashContent, splashButtonText } = useConfigurationSettings();
 
   return (
     <instant-apps-splash
@@ -15,7 +14,7 @@ export default function Splash() {
       titleText={splashTitle}
       content={splashContent}
       primaryButtonText={splashButtonText}
-      localStorageKey="iac-demo"
+      localStorageKey="iac-react-starter"
     />
   );
 }
