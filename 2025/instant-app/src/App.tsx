@@ -15,7 +15,6 @@ import { useState } from "react";
 export default function App() {
   const { theme } = useConfigurationSettings();
   const { base } = useApplicationBase();
-
   const { webmap, splash, splashContent } = useConfigurationSettings();
 
   const [view, setView] = useState(null);
@@ -70,6 +69,7 @@ export default function App() {
       </calcite-panel>
     </calcite-shell-panel>
   );
+
   const renderTool = () => {
     if (!view) return null;
     const mode = theme === "light" ? "calcite-mode-light" : "calcite-mode-dark";
@@ -94,17 +94,15 @@ export default function App() {
     }
   };
 
-  const renderMap = () => {
-    return (
-      <arcgis-map
-        id="arcgisMap"
-        onarcgisViewReadyChange={arcgisViewReadyChangeCallback}
-        itemId={webmap}
-      >
-        <MapComponents />
-      </arcgis-map>
-    );
-  };
+  const renderMap = () => (
+    <arcgis-map
+      id="arcgisMap"
+      onarcgisViewReadyChange={arcgisViewReadyChangeCallback}
+      itemId={webmap}
+    >
+      <MapComponents />
+    </arcgis-map>
+  );
 
   const renderSplash = () => (splash && splashContent ? <Splash /> : null);
 
