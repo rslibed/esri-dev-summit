@@ -1,7 +1,7 @@
 import { useConfigurationSettings } from "src/Context/Contexts";
 
 export default function SocialShare() {
-  const { theme } = useConfigurationSettings();
+  const { customTheme, theme } = useConfigurationSettings();
   return (
     <instant-apps-social-share
       slot="actions-end"
@@ -9,7 +9,9 @@ export default function SocialShare() {
       scale="s"
       shareButtonScale="m"
       displayTipText={false}
-      shareButtonColor={theme === "light" ? "inverse" : "neutral"}
+      shareButtonColor={
+        customTheme && theme === "light" ? "inverse" : "neutral"
+      }
     />
   );
 }

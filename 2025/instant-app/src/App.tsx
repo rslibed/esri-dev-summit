@@ -16,7 +16,7 @@ export default function App() {
   const { theme } = useConfigurationSettings();
   const { base } = useApplicationBase();
 
-  const { webmap } = useConfigurationSettings();
+  const { webmap, splash, splashContent } = useConfigurationSettings();
 
   const [view, setView] = useState(null);
   const [tool, setTool] = useState("interactiveLegend");
@@ -27,6 +27,26 @@ export default function App() {
     const map = arcgisMap?.map as __esri.WebMap | __esri.WebScene;
     joinAppProxies(map, esriConfig, appProxies as AppProxyDefinition[]);
     setView(arcgisMap.view);
+  };
+
+  const renderMenuActions = () => {
+    const actions = [
+      { id: "interactiveLegend", icon: "legend", text: "Interactive Legend" },
+      { id: "bookmarks", icon: "bookmark", text: "Bookmarks" },
+      { id: "export", icon: "export", text: "Export" },
+    ];
+
+    return actions
+      .filter((action) => action.id !== tool)
+      .map(({ id, icon, text }) => (
+        <calcite-action
+          onclick={() => setTool(id)}
+          icon={icon}
+          text-enabled
+          text={text}
+          slot="header-menu-actions"
+        ></calcite-action>
+      ));
   };
 
   return (
@@ -45,33 +65,7 @@ export default function App() {
                 : null
             }
           >
-            <calcite-action
-              onclick={() => {
-                setTool("interactiveLegend");
-              }}
-              icon="legend"
-              text-enabled
-              text="Interactive Legend"
-              slot="header-menu-actions"
-            ></calcite-action>
-            <calcite-action
-              onclick={() => {
-                setTool("bookmarks");
-              }}
-              icon="bookmark"
-              text-enabled
-              text="Bookmarks"
-              slot="header-menu-actions"
-            ></calcite-action>
-            <calcite-action
-              onclick={() => {
-                setTool("export");
-              }}
-              icon="export"
-              text-enabled
-              text="Export"
-              slot="header-menu-actions"
-            ></calcite-action>
+            {renderMenuActions()}
             {view ? (
               tool === "interactiveLegend" ? (
                 <instant-apps-interactive-legend
@@ -109,7 +103,7 @@ export default function App() {
           <MapComponents />
         </arcgis-map>
       </calcite-shell>
-      <Splash />
+      {splash && splashContent ? <Splash /> : null}
     </>
   );
 }

@@ -10,13 +10,7 @@
   "googleAnalyticsConsentMsg": null,
   "proxyUrl": "",
   "units": "",
-  "localDefaultValues": {
-    "splash": true,
-    "share": true,
-    "splashTitle": "Welcome!",
-    "splashContent": "Splash content.",
-    "splashButtonText": "Enter"
-  },
+  "localDefaultValues": {},
   "helperServices": {
     "geometry": {
       "url": null

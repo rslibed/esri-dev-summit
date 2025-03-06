@@ -2,14 +2,8 @@ import { useConfigurationSettings } from "src/Context/Contexts";
 import { ComponentPosition } from "src/types/interfaces";
 
 export default function Map() {
-  const {
-    home,
-    homePosition,
-    mapZoom,
-    mapZoomPosition,
-    bookmarks,
-    bookmarksPosition,
-  } = useConfigurationSettings();
+  const { home, homePosition, mapZoom, mapZoomPosition } =
+    useConfigurationSettings();
 
   const getPosition = (componentPosition: ComponentPosition) => {
     return (
