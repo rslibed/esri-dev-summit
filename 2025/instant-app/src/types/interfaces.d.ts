@@ -19,16 +19,12 @@ export interface ConfigState {
   mapZoom: boolean;
   mapZoomPosition: ComponentPosition;
   legend: boolean;
-  legendPosition: ComponentPosition;
   search: boolean;
   searchPosition: ComponentPosition;
-  languageSwitcher: boolean;
-  languageSwitcherPosition: ComponentPosition;
-  languageSwitcherConfig: any;
   theme: "light" | "dark";
   bookmarks: boolean;
-  bookmarksPosition: ComponentPosition;
   customTheme?;
+  searchConfiguration?;
 }
 
 export interface IConfigurationSettingsContext extends ConfigState {

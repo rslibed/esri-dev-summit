@@ -4,7 +4,7 @@ import { setPageTitle } from "templates-common-library-esm/baseClasses/support/d
 
 import { ConfigurationSettingsContext } from "src/Context/Contexts";
 import { ConfigState, IConfigAction } from "src/types/interfaces";
-import { setTheme } from "src/utils/themeUtils";
+import { setTheme } from "src/utils/utils";
 
 interface ConfigurationSettingsProviderProps {
   config: ConfigState;
@@ -33,9 +33,12 @@ const initialState = {};
 
 const ConfigurationSettingsProvider = ({
   config,
-  children
+  children,
 }: ConfigurationSettingsProviderProps): ReactElement => {
-  const [state, configDispatch] = useReducer(reducer, { ...initialState, ...config });
+  const [state, configDispatch] = useReducer(reducer, {
+    ...initialState,
+    ...config,
+  });
 
   useEffect(() => {
     const handleConfigurationUpdates = (e: MessageEvent) => {
@@ -49,7 +52,8 @@ const ConfigurationSettingsProvider = ({
         }
       }
     };
-    const withinConfigurationExperience: boolean = window.location !== window.parent.location;
+    const withinConfigurationExperience: boolean =
+      window.location !== window.parent.location;
     if (withinConfigurationExperience)
       window.addEventListener("message", handleConfigurationUpdates, false);
   }, []);
@@ -58,7 +62,7 @@ const ConfigurationSettingsProvider = ({
     <ConfigurationSettingsContext
       value={{
         ...state,
-        configDispatch
+        configDispatch,
       }}
     >
       {children}

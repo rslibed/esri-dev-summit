@@ -10,7 +10,8 @@ import { joinAppProxies } from "templates-common-library-esm/functionality/proxy
 import { AppProxyDefinition } from "templates-common-library-esm/interfaces/applicationBase";
 
 import esriConfig from "@arcgis/core/config";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { setTheme } from "./utils/utils";
 
 export default function App() {
   const { theme } = useConfigurationSettings();
@@ -20,7 +21,12 @@ export default function App() {
   const [view, setView] = useState(null);
   const [tool, setTool] = useState("interactiveLegend");
 
+  useEffect(() => {
+    setTheme(theme);
+  }, []);
+
   const arcgisViewReadyChangeCallback = (e) => {
+    setTheme(theme);
     const arcgisMap = e.target;
     const appProxies = base.results?.applicationItem?.value?.applicationProxies;
     const map = arcgisMap?.map as __esri.WebMap | __esri.WebScene;
