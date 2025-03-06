@@ -29,81 +29,93 @@ export default function App() {
     setView(arcgisMap.view);
   };
 
+  const getText = (id) => {
+    switch (id) {
+      case "interactiveLegend":
+        return "Interactive Legend";
+      case "bookmarks":
+        return "Bookmarks";
+      case "export":
+        return "Export";
+      default:
+        return null;
+    }
+  };
+
   const renderMenuActions = () => {
     const actions = [
-      { id: "interactiveLegend", icon: "legend", text: "Interactive Legend" },
-      { id: "bookmarks", icon: "bookmark", text: "Bookmarks" },
-      { id: "export", icon: "export", text: "Export" },
+      { id: "interactiveLegend", icon: "legend" },
+      { id: "bookmarks", icon: "bookmark" },
+      { id: "export", icon: "export" },
     ];
 
     return actions
       .filter((action) => action.id !== tool)
-      .map(({ id, icon, text }) => (
+      .map(({ id, icon }) => (
         <calcite-action
           onclick={() => setTool(id)}
           icon={icon}
           text-enabled
-          text={text}
+          text={getText(id)}
           slot="header-menu-actions"
         ></calcite-action>
       ));
   };
 
+  const renderShellPanel = () => (
+    <calcite-shell-panel slot="panel-start" width="m">
+      <calcite-panel heading={getText(tool)}>
+        {renderMenuActions()}
+        {renderTool()}
+      </calcite-panel>
+    </calcite-shell-panel>
+  );
+  const renderTool = () => {
+    if (!view) return null;
+    const mode = theme === "light" ? "calcite-mode-light" : "calcite-mode-dark";
+    switch (tool) {
+      case "bookmarks":
+        return <arcgis-bookmarks referenceElement="arcgisMap" />;
+      case "interactiveLegend":
+        return <instant-apps-interactive-legend className={mode} view={view} />;
+      case "export":
+        return (
+          <instant-apps-export
+            className={mode}
+            view={view}
+            mode="inline"
+            showIncludeLegend={false}
+            showIncludePopup={false}
+            includeLegend={false}
+          />
+        );
+      default:
+        return null;
+    }
+  };
+
+  const renderMap = () => {
+    return (
+      <arcgis-map
+        id="arcgisMap"
+        onarcgisViewReadyChange={arcgisViewReadyChangeCallback}
+        itemId={webmap}
+      >
+        <MapComponents />
+      </arcgis-map>
+    );
+  };
+
+  const renderSplash = () => (splash && splashContent ? <Splash /> : null);
+
   return (
     <>
       <calcite-shell>
         <Header />
-        <calcite-shell-panel slot="panel-start" width="m">
-          <calcite-panel
-            heading={
-              tool === "interactiveLegend"
-                ? "Interactive Legend"
-                : tool === "bookmarks"
-                ? "Bookmarks"
-                : tool === "export"
-                ? "Export"
-                : null
-            }
-          >
-            {renderMenuActions()}
-            {view ? (
-              tool === "interactiveLegend" ? (
-                <instant-apps-interactive-legend
-                  className={
-                    theme === "light"
-                      ? "calcite-mode-light"
-                      : "calcite-mode-dark"
-                  }
-                  view={view}
-                />
-              ) : tool === "bookmarks" ? (
-                <arcgis-bookmarks referenceElement="arcgisMap"></arcgis-bookmarks>
-              ) : tool === "export" ? (
-                <instant-apps-export
-                  className={
-                    theme === "light"
-                      ? "calcite-mode-light"
-                      : "calcite-mode-dark"
-                  }
-                  view={view}
-                  mode="inline"
-                  showIncludeLegend={false}
-                  showIncludePopup={false}
-                  includeLegend={false}
-                />
-              ) : null
-            ) : null}
-          </calcite-panel>
-        </calcite-shell-panel>
-        <arcgis-map
-          id="arcgisMap"
-          onarcgisViewReadyChange={arcgisViewReadyChangeCallback}
-          itemId={webmap}
-        >
-          <MapComponents />
-        </arcgis-map>
+        {renderShellPanel()}
+        {renderMap()}
       </calcite-shell>
-      {splash && splashContent ? <Splash /> : null}
+      {renderSplash()}
     </>
   );
 }
