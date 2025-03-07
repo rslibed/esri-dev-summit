@@ -13,13 +13,15 @@ import esriConfig from "@arcgis/core/config";
 import { useEffect, useState } from "react";
 import { setTheme } from "./utils/utils";
 
+const arcgisMapId = "arcgisMap";
+
 export default function App() {
   const { theme } = useConfigurationSettings();
   const { base } = useApplicationBase();
   const { webmap, splash, splashContent } = useConfigurationSettings();
 
   const [view, setView] = useState(null);
-  const [tool, setTool] = useState("interactiveLegend");
+  const [tool, setTool] = useState("legend");
 
   useEffect(() => {
     setTheme(theme);
@@ -36,8 +38,8 @@ export default function App() {
 
   const getText = (id) => {
     switch (id) {
-      case "interactiveLegend":
-        return "Interactive Legend";
+      case "legend":
+        return "Legend";
       case "bookmarks":
         return "Bookmarks";
       case "export":
@@ -49,7 +51,7 @@ export default function App() {
 
   const renderMenuActions = () => {
     const actions = [
-      { id: "interactiveLegend", icon: "legend" },
+      { id: "legend", icon: "legend" },
       { id: "bookmarks", icon: "bookmark" },
       { id: "export", icon: "export" },
     ];
@@ -81,8 +83,11 @@ export default function App() {
     const mode = theme === "light" ? "calcite-mode-light" : "calcite-mode-dark";
     switch (tool) {
       case "bookmarks":
-        return <arcgis-bookmarks referenceElement="arcgisMap" />;
-      case "interactiveLegend":
+        return <arcgis-bookmarks referenceElement={arcgisMapId} />;
+      case "legend":
+        // return (
+        //   <arcgis-legend className={mode} referenceElement={arcgisMapId} />
+        // );
         return <instant-apps-interactive-legend className={mode} view={view} />;
       case "export":
         return (
@@ -102,7 +107,7 @@ export default function App() {
 
   const renderMap = () => (
     <arcgis-map
-      id="arcgisMap"
+      id={arcgisMapId}
       onarcgisViewReadyChange={arcgisViewReadyChangeCallback}
       itemId={webmap}
     >
