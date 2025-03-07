@@ -15,6 +15,8 @@ import { setTheme } from "./utils/utils";
 
 const arcgisMapId = "arcgisMap";
 
+// Configured Basic app: c0e0e869aeaf4d73908965a276c55d5b
+
 export default function App() {
   const { theme } = useConfigurationSettings();
   const { base } = useApplicationBase();
