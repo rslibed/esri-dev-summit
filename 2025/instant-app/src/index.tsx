@@ -17,8 +17,6 @@ import { createRoot } from "react-dom/client";
 import applicationJSON from "src/config/application.json";
 import applicationBaseJSON from "src/config/applicationBase.json";
 import applicationBase from "src/config/applicationBase.json";
-// Resolves esri-loader/@arcgis/core JSAPI conflict
-import "src/utils/require";
 import ApplicationBase from "templates-common-library-esm/baseClasses/ApplicationBase";
 import { EAppTemplateType } from "templates-common-library-esm/baseClasses/CompatibilityChecker";
 import { setPageTitle } from "templates-common-library-esm/baseClasses/support/domHelper";
@@ -74,7 +72,7 @@ import { createMapFromItem } from "templates-common-library-esm/baseClasses/supp
       ? appItemTitle
       : item?.title
       ? item.title
-      : "ArcGIS Instant Apps: Build Using TypeScript and ArcGIS Maps SDK for JavaScript";
+      : "Instant Apps: React Starter";
 
     setPageTitle(title);
 
