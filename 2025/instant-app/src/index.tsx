@@ -59,10 +59,8 @@ import { createMapFromItem } from "templates-common-library-esm/baseClasses/supp
     item = webMapItems?.[0]?.value as any;
   }
 
-  const appProxies = base.results?.applicationItem?.value?.applicationProxies;
-
   try {
-    const map = await createMapFromItem({ item, appProxies });
+    const map = await createMapFromItem({ item });
     if (map) map.load();
     const appItemTitle = base?.results?.applicationItem?.value?.title;
 

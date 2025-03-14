@@ -87,10 +87,10 @@ export default function App() {
       case "bookmarks":
         return <arcgis-bookmarks referenceElement={arcgisMapId} />;
       case "legend":
-        // return (
-        //   <arcgis-legend className={mode} referenceElement={arcgisMapId} />
-        // );
-        return <instant-apps-interactive-legend className={mode} view={view} />;
+        return (
+          <arcgis-legend className={mode} referenceElement={arcgisMapId} />
+        );
+      // return <instant-apps-interactive-legend className={mode} view={view} />;
       case "export":
         return (
           <instant-apps-export

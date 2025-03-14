@@ -1,3 +1,4 @@
+import { useEffect, useRef } from "react";
 import { useConfigurationSettings } from "src/Context/Contexts";
 import { ComponentPosition } from "src/types/interfaces";
 
@@ -11,6 +12,8 @@ export default function Map() {
     searchPosition,
     searchConfiguration,
   } = useConfigurationSettings();
+
+  const searchComponent = useRef<HTMLArcgisSearchElement>(null);
 
   const getPosition = (componentPosition: ComponentPosition) => {
     return (
@@ -29,12 +32,16 @@ export default function Map() {
   const renderSearch = () =>
     search && (
       <arcgis-expand position={getPosition(searchPosition)} expanded>
-        <arcgis-search
-          sources={searchConfiguration?.sources || []}
-          includeDefaultSourcesDisabled={true}
-        />
+        <arcgis-search ref={searchComponent} />
       </arcgis-expand>
     );
+
+  useEffect(() => {
+    if (searchComponent?.current && searchConfiguration) {
+      searchComponent.current.includeDefaultSourcesDisabled = true;
+      searchComponent.current.sources = searchConfiguration.sources;
+    }
+  }, [searchComponent, searchConfiguration]);
 
   return (
     <>
